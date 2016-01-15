@@ -1,0 +1,32 @@
+body {
+	margin: 0;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+h1, ul {
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	text-transform: uppercase;
+	margin: 0 10px;
+	color: #90172a;
+}
+
+li {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.nav {
+	background-color: #b1d4cd;
+	padding: 20px 0 ;
+}
+
+.hero {
+	background: url('../images/doughnuts.jpg') fixed no-repeat;
+	background-size: cover;
+	padding-top: 200px;
+	padding-bottom: 200px;
+}
