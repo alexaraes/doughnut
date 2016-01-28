@@ -1,0 +1,80 @@
+$prime-color: #080808;
+$second-color: #F4F1F2;
+$third-color: #93B7BE;
+
+body {
+	margin: 0;
+	font-family: Futura, Helvetica, Arial, sans-serif;
+	background-color: $prime-color;
+}
+
+h1, ul {
+	margin: 0;
+}
+
+h1 {
+	color: white;
+	font-size: 102px;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	text-transform: uppercase;
+	margin: 0 10px;
+	color: #595959;
+}
+
+a:hover {
+	color: $second-color;
+	border-bottom: 1px solid $second-color;
+}
+
+.nav {
+	padding: 20px 0 ;
+
+	li {
+		display: inline-block;
+		vertical-align: middle;
+		margin: 0 auto;
+	}
+}
+
+.hero {
+	// background: url('../images/lights.jpg') fixed no-repeat;
+	// background-size: cover;
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
+
+.container, footer {
+	width: 960px;
+	margin: 0 auto;
+	padding: 50px 0;
+	overflow: hidden;
+}
+
+.left-col {
+	width: 60%;
+	float: left;
+	color: #595959;
+}
+
+.left-col p {
+	line-height: 1.6;
+}
+
+.right-col {
+	width: 30%;
+	float: right;
+	margin-left: 10%;
+}
+
+.right-col img {
+	width: 100%;
+}
+
+footer {
+	/*background-color: #b1d4cd;
+	overflow: hidden;*/
+}
