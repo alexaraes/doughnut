@@ -10,9 +10,10 @@ module.exports = React.createClass({
 				</div>
 				<div className="container">
 					<div className="left-col">
-						<a href="/eatie/eatie-index.html"><h2>Eatie</h2></a>
+						<a href="doughnut/eatie/eatie-index.html"><h2>Eatie</h2></a>
+						<h3>Iron Yard final project - July 2015</h3>
 						<p>
-						Taxidermy gastropub lo-fi, vinyl marfa swag kombucha ramps chambray farm-to-table ugh truffaut austin. Pug wayfarers asymmetrical twee cred migas tousled mustache, four loko ennui tilde chartreuse sartorial man bun authentic. Blue bottle banh mi lomo pitchfork pinterest. Chambray green juice shabby chic cornhole. Brooklyn narwhal hella, kitsch wayfarers fingerstache gluten-free lomo paleo.
+					 		CSS3, HTML5, Backbone.js, React.js
 						</p>
 					</div>
 					<div className="right-col">
@@ -20,9 +21,10 @@ module.exports = React.createClass({
 				</div>
 				<div className="container">
 					<div className="left-col">
-						<a href="/photo-album/dist/photo-home.html"><h2>Photo Album</h2></a>
+						<a href="doughnut/photo-album/dist/photo-home.html"><h2>Photo Album</h2></a>
+						<h3>Album of my personal photos - June 2015</h3>
 						<p>
-						Taxidermy gastropub lo-fi, vinyl marfa swag kombucha ramps chambray farm-to-table ugh truffaut austin. Pug wayfarers asymmetrical twee cred migas tousled mustache, four loko ennui tilde chartreuse sartorial man bun authentic. Blue bottle banh mi lomo pitchfork pinterest. Chambray green juice shabby chic cornhole. Brooklyn narwhal hella, kitsch wayfarers fingerstache gluten-free lomo paleo.
+							CSS3, HTML5, Backbone.js, React.js
 						</p>
 					</div>
 					<div className="right-col">
@@ -31,9 +33,10 @@ module.exports = React.createClass({
 				</div>
 				<div className="container">
 					<div className="left-col">
-						<a href="/blog/blog-home.html"><h2>Blog</h2></a>
+						<a href="doughnut/blog/blog-home.html"><h2>Blog</h2></a>
+						<h3>Fun blog of various posts from various people</h3>
 						<p>
-						Taxidermy gastropub lo-fi, vinyl marfa swag kombucha ramps chambray farm-to-table ugh truffaut austin. Pug wayfarers asymmetrical twee cred migas tousled mustache, four loko ennui tilde chartreuse sartorial man bun authentic. Blue bottle banh mi lomo pitchfork pinterest. Chambray green juice shabby chic cornhole. Brooklyn narwhal hella, kitsch wayfarers fingerstache gluten-free lomo paleo.
+							CSS3, HTML5, Backbone.js, React.js
 						</p>
 					</div>
 					<div className="right-col">
