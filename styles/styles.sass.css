@@ -21,8 +21,11 @@ a {
   text-transform: none; }
 
 a:hover, a:focus {
-  color: #595959;
+  color: #080808;
   border-bottom: 1px solid #080808; }
+
+p > a {
+  margin: 0; }
 
 #nav {
   padding: 10px 0;

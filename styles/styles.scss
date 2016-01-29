@@ -30,8 +30,12 @@ a {
 }
 
 a:hover, a:focus {
-	color: $text-color;
+	color: $link-color;
 	border-bottom: 1px solid $link-color;
+}
+
+p > a {
+	margin: 0;
 }
 
 #nav {
