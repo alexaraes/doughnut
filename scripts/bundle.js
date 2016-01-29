@@ -32489,7 +32489,7 @@ module.exports = React.createClass({
 							null,
 							'Linked In'
 						),
-						React.createElement('img', { src: '../images/linkedin.png' })
+						React.createElement('img', { src: '/../../images/linkedin.png' })
 					)
 				)
 			)
@@ -32542,7 +32542,9 @@ module.exports = React.createClass({
 					React.createElement(
 						'p',
 						null,
-						'CSS3, HTML5, Backbone.js, React.js'
+						'Single-page web app ',
+						React.createElement('br', null),
+						'CSS3, HTML5, Backbone.js, React.js, Parse'
 					)
 				),
 				React.createElement('div', { className: 'right-col' })
@@ -32565,7 +32567,7 @@ module.exports = React.createClass({
 					React.createElement(
 						'h3',
 						null,
-						'Album of my personal photos - June 2015'
+						'Album of my favorite photos - June 2015'
 					),
 					React.createElement(
 						'p',
@@ -32598,7 +32600,7 @@ module.exports = React.createClass({
 					React.createElement(
 						'p',
 						null,
-						'CSS3, HTML5, Backbone.js, React.js'
+						'CSS3, HTML5, Backbone.js, React.js, Parse'
 					)
 				),
 				React.createElement('div', { className: 'right-col' })

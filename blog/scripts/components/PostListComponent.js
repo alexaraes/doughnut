@@ -4,9 +4,12 @@ var PostModel = require('../models/PostModel');
 var moment = require('../../node_modules/moment/moment.js');
 
 module.exports = React.createClass({
+	getInitialState: function() {
+		var postEls = [];
+	},
 	render: function() {
 		this.props.posts.models.reverse(); 
-		var postEls = this.props.posts.map(function(postModel) {
+		postEls = this.props.posts.map(function(postModel) {
 
 			var postDate = moment(postModel.get('createdAt')).fromNow();
 
