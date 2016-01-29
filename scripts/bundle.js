@@ -32613,7 +32613,11 @@ module.exports = React.createClass({
 						React.createElement(
 							'p',
 							null,
-							'Single-page web app ',
+							React.createElement(
+								'a',
+								{ href: 'https://github.com/alexaraes/eatie' },
+								'Source code'
+							),
 							React.createElement('br', null),
 							'CSS3, HTML5, Backbone.js, React.js, Parse'
 						)
@@ -32647,6 +32651,12 @@ module.exports = React.createClass({
 						React.createElement(
 							'p',
 							null,
+							React.createElement(
+								'a',
+								{ href: 'https://github.com/alexaraes/photo-album-page/tree/master/dist' },
+								'Source code'
+							),
+							React.createElement('br', null),
 							'CSS3, HTML5, Backbone.js, React.js'
 						)
 					),
@@ -32662,7 +32672,11 @@ module.exports = React.createClass({
 				{ className: 'container' },
 				React.createElement(
 					'a',
+<<<<<<< HEAD
 					{ href: '/blog/index.html' },
+=======
+					{ href: './blog/index.html' },
+>>>>>>> master
 					React.createElement(
 						'div',
 						{ className: 'left-col' },
@@ -32679,6 +32693,12 @@ module.exports = React.createClass({
 						React.createElement(
 							'p',
 							null,
+							React.createElement(
+								'a',
+								{ href: 'https://github.com/alexaraes/blog-practice' },
+								'Source code'
+							),
+							React.createElement('br', null),
 							'CSS3, HTML5, Backbone.js, React.js, Parse'
 						)
 					),

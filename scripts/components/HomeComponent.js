@@ -14,7 +14,7 @@ module.exports = React.createClass({
 							<h2>Eatie</h2>
 							<h3>Iron Yard final project - July 2015</h3>
 							<p>
-								Single-page web app <br />
+								<a href="https://github.com/alexaraes/eatie">Source code</a><br />
 						 		CSS3, HTML5, Backbone.js, React.js, Parse
 							</p>
 						</div>
@@ -29,6 +29,7 @@ module.exports = React.createClass({
 							<h2>Photo Album</h2>
 							<h3>Album of my favorite photos - June 2015</h3>
 							<p>
+								<a href="https://github.com/alexaraes/photo-album-page/tree/master/dist">Source code</a><br />
 								CSS3, HTML5, Backbone.js, React.js
 							</p>
 						</div>
@@ -38,11 +39,16 @@ module.exports = React.createClass({
 					</a>
 				</div>
 				<div className="container">
+<<<<<<< HEAD
 					<a href="/blog/index.html">
+=======
+					<a href="./blog/index.html">
+>>>>>>> master
 						<div className="left-col">
 							<h2>Blog</h2>
 							<h3>Fun blog of various posts from various people</h3>
 							<p>
+								<a href="https://github.com/alexaraes/blog-practice">Source code</a><br />
 								CSS3, HTML5, Backbone.js, React.js, Parse
 							</p>
 						</div>
