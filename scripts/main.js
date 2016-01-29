@@ -1,11 +1,21 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
 var Backbone = require('backbone');
-var $ = require('jquery');
 
 var HomeComponent = require('./components/HomeComponent.js');
+var AboutComponent = require('./components/AboutComponent.js');
+var ContactComponent = require('./components/ContactComponent.js');
+var NavBar = require('./components/NavComponent.js');
 
 var container = document.getElementById('main');
+var nav = document.getElementById('nav');
+
+var hash = window.location.hash;
+
+// ReactDOM.render(
+// 	<NavBar />,
+// 	nav
+// )
 
 var App = Backbone.Router.extend({
 	routes: {
@@ -25,12 +35,14 @@ var App = Backbone.Router.extend({
 	},
 	about: function() {
 		ReactDOM.render(
-			
+			<AboutComponent />,
+			container
 		)
 	},
 	contact: function() {
 		ReactDOM.render(
-			
+			<ContactComponent />,
+			container
 		)
 	},
 	blog: function() {

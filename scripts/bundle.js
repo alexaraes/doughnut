@@ -32389,6 +32389,137 @@ module.exports = React.createClass({
 			'div',
 			null,
 			React.createElement(
+				'h2',
+				{ className: 'info' },
+				'About'
+			),
+			React.createElement(
+				'div',
+				{ className: 'container' },
+				React.createElement(
+					'div',
+					{ className: 'left-col' },
+					React.createElement(
+						'a',
+						{ href: '/eatie/eatie-index.html' },
+						React.createElement(
+							'h2',
+							null,
+							'Eatie'
+						)
+					),
+					React.createElement(
+						'p',
+						null,
+						'Taxidermy gastropub lo-fi, vinyl marfa swag kombucha ramps chambray farm-to-table ugh truffaut austin. Pug wayfarers asymmetrical twee cred migas tousled mustache, four loko ennui tilde chartreuse sartorial man bun authentic. Blue bottle banh mi lomo pitchfork pinterest. Chambray green juice shabby chic cornhole. Brooklyn narwhal hella, kitsch wayfarers fingerstache gluten-free lomo paleo.'
+					)
+				),
+				React.createElement('div', { className: 'right-col' })
+			),
+			React.createElement(
+				'div',
+				{ className: 'container' },
+				React.createElement(
+					'div',
+					{ className: 'left-col' },
+					React.createElement(
+						'a',
+						{ href: '/photo-album/dist/photo-home.html' },
+						React.createElement(
+							'h2',
+							null,
+							'Photo Album'
+						)
+					),
+					React.createElement(
+						'p',
+						null,
+						'Taxidermy gastropub lo-fi, vinyl marfa swag kombucha ramps chambray farm-to-table ugh truffaut austin. Pug wayfarers asymmetrical twee cred migas tousled mustache, four loko ennui tilde chartreuse sartorial man bun authentic. Blue bottle banh mi lomo pitchfork pinterest. Chambray green juice shabby chic cornhole. Brooklyn narwhal hella, kitsch wayfarers fingerstache gluten-free lomo paleo.'
+					)
+				),
+				React.createElement('div', { className: 'right-col' })
+			),
+			React.createElement(
+				'div',
+				{ className: 'container' },
+				React.createElement(
+					'div',
+					{ className: 'left-col' },
+					React.createElement(
+						'a',
+						{ href: '/blog/blog-home.html' },
+						React.createElement(
+							'h2',
+							null,
+							'Blog'
+						)
+					),
+					React.createElement(
+						'p',
+						null,
+						'Taxidermy gastropub lo-fi, vinyl marfa swag kombucha ramps chambray farm-to-table ugh truffaut austin. Pug wayfarers asymmetrical twee cred migas tousled mustache, four loko ennui tilde chartreuse sartorial man bun authentic. Blue bottle banh mi lomo pitchfork pinterest. Chambray green juice shabby chic cornhole. Brooklyn narwhal hella, kitsch wayfarers fingerstache gluten-free lomo paleo.'
+					)
+				),
+				React.createElement('div', { className: 'right-col' })
+			)
+		);
+	}
+});
+
+},{"react":161,"react-dom":5}],163:[function(require,module,exports){
+'use strict';
+
+var React = require('react');
+var ReactDOM = require('react-dom');
+
+module.exports = React.createClass({
+	displayName: 'exports',
+
+	render: function render() {
+		return React.createElement(
+			'div',
+			null,
+			React.createElement(
+				'h2',
+				{ className: 'info' },
+				'Contact Me'
+			),
+			React.createElement(
+				'div',
+				{ className: 'container' },
+				React.createElement(
+					'div',
+					null,
+					React.createElement(
+						'a',
+						{ href: 'http://www.linkedin.com/in/alexaraes' },
+						React.createElement(
+							'h2',
+							null,
+							'Linked In'
+						),
+						React.createElement('img', { src: '../images/linkedin.png' })
+					)
+				)
+			)
+		);
+	}
+});
+
+},{"react":161,"react-dom":5}],164:[function(require,module,exports){
+'use strict';
+
+var React = require('react');
+var ReactDOM = require('react-dom');
+
+module.exports = React.createClass({
+	displayName: 'exports',
+
+	render: function render() {
+		return React.createElement(
+			'div',
+			null,
+			React.createElement(
 				'div',
 				{ className: 'hero' },
 				React.createElement(
@@ -32470,17 +32601,71 @@ module.exports = React.createClass({
 	}
 });
 
-},{"react":161,"react-dom":5}],163:[function(require,module,exports){
+},{"react":161,"react-dom":5}],165:[function(require,module,exports){
+'use strict';
+
+var React = require('react');
+var ReactDOM = require('react-dom');
+
+module.exports = React.createClass({
+	displayName: 'exports',
+
+	render: function render() {
+		return React.createElement(
+			'ul',
+			null,
+			React.createElement(
+				'li',
+				null,
+				React.createElement(
+					'a',
+					{ 'class': 'navlinks', href: '#home' },
+					'home'
+				)
+			),
+			React.createElement(
+				'li',
+				null,
+				React.createElement(
+					'a',
+					{ 'class': 'navlinks', href: '#about' },
+					'about'
+				)
+			),
+			React.createElement(
+				'li',
+				null,
+				React.createElement(
+					'a',
+					{ 'class': 'navlinks', href: '#contact' },
+					'contact'
+				)
+			)
+		);
+	}
+});
+
+},{"react":161,"react-dom":5}],166:[function(require,module,exports){
 'use strict';
 
 var React = require('react');
 var ReactDOM = require('react-dom');
 var Backbone = require('backbone');
-var $ = require('jquery');
 
 var HomeComponent = require('./components/HomeComponent.js');
+var AboutComponent = require('./components/AboutComponent.js');
+var ContactComponent = require('./components/ContactComponent.js');
+var NavBar = require('./components/NavComponent.js');
 
 var container = document.getElementById('main');
+var nav = document.getElementById('nav');
+
+var hash = window.location.hash;
+
+// ReactDOM.render(
+// 	<NavBar />,
+// 	nav
+// )
 
 var App = Backbone.Router.extend({
 	routes: {
@@ -32492,8 +32677,14 @@ var App = Backbone.Router.extend({
 		'eatie': 'eatie',
 		'images': 'images'
 	},
-	home: function home(posts) {
+	home: function home() {
 		ReactDOM.render(React.createElement(HomeComponent, null), container);
+	},
+	about: function about() {
+		ReactDOM.render(React.createElement(AboutComponent, null), container);
+	},
+	contact: function contact() {
+		ReactDOM.render(React.createElement(ContactComponent, null), container);
 	},
 	blog: function blog() {
 		ReactDOM.render();
@@ -32509,7 +32700,7 @@ var App = Backbone.Router.extend({
 var myApp = new App();
 Backbone.history.start();
 
-},{"./components/HomeComponent.js":162,"backbone":1,"jquery":4,"react":161,"react-dom":5}]},{},[163])
+},{"./components/AboutComponent.js":162,"./components/ContactComponent.js":163,"./components/HomeComponent.js":164,"./components/NavComponent.js":165,"backbone":1,"react":161,"react-dom":5}]},{},[166])
 
 
 //# sourceMappingURL=bundle.js.map

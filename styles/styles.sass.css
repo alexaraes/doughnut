@@ -3,13 +3,16 @@ body {
   font-family: Futura, Helvetica, Arial, sans-serif;
   background-color: #F4F1F2; }
 
-h1, ul {
+h1, h2, ul {
   margin: 0; }
 
-h1 {
-  color: white;
+h1, .info {
+  color: #B28997;
   font-size: 102px;
   text-align: center; }
+
+.info {
+  font-size: 80px; }
 
 a, .navlinks {
   text-decoration: none;
@@ -20,7 +23,7 @@ a, .navlinks {
 a {
   text-transform: none; }
 
-a:hover {
+a:hover, a:focus {
   color: #080808;
   border-bottom: 1px solid #080808; }
 
