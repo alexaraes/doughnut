@@ -32480,16 +32480,76 @@ module.exports = React.createClass({
 				{ className: 'container' },
 				React.createElement(
 					'div',
-					null,
+					{ className: 'left-col' },
+					React.createElement(
+						'h2',
+						null,
+						'Email'
+					)
+				),
+				React.createElement(
+					'div',
+					{ className: 'right-col' },
 					React.createElement(
 						'a',
 						{ href: 'http://www.linkedin.com/in/alexaraes' },
 						React.createElement(
+							'h3',
+							null,
+							'alexa.schreffler@gmail.com'
+						)
+					)
+				)
+			),
+			React.createElement(
+				'div',
+				{ className: 'container' },
+				React.createElement(
+					'div',
+					{ className: 'left-col' },
+					React.createElement(
+						'h2',
+						null,
+						'LinkedIn'
+					)
+				),
+				React.createElement(
+					'div',
+					{ className: 'right-col' },
+					React.createElement(
+						'a',
+						{ href: 'http://www.linkedin.com/in/alexaraes' },
+						React.createElement(
+							'h3',
+							null,
+							'linkedin/in/alexaraes'
+						)
+					)
+				)
+			),
+			React.createElement(
+				'div',
+				{ className: 'container' },
+				React.createElement(
+					'div',
+					{ className: 'left-col' },
+					React.createElement(
+						'h2',
+						null,
+						'GitHub'
+					)
+				),
+				React.createElement(
+					'div',
+					{ className: 'right-col' },
+					React.createElement(
+						'a',
+						{ href: 'http://www.github.com/alexaraes' },
+						React.createElement(
 							'h2',
 							null,
-							'Linked In'
-						),
-						React.createElement('img', { src: '/images/linkedin.png' })
+							'github.com/alexaraes'
+						)
 					)
 				)
 			)
@@ -32590,7 +32650,7 @@ module.exports = React.createClass({
 				{ className: 'container' },
 				React.createElement(
 					'a',
-					{ href: '../blog/index.html' },
+					{ href: '/blog/index.html' },
 					React.createElement(
 						'div',
 						{ className: 'left-col' },
