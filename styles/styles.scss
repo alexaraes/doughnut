@@ -1,6 +1,5 @@
-$prime-color: #080808;
-$second-color: #F4F1F2;
-$third-color: #93B7BE;
+$prime-color: #F4F1F2;
+$second-color: #080808;
 
 body {
 	margin: 0;
@@ -18,11 +17,15 @@ h1 {
 	text-align: center;
 }
 
-a {
+a, .navlinks {
 	text-decoration: none;
 	text-transform: uppercase;
 	margin: 0 10px;
 	color: #595959;
+}
+
+a {
+	text-transform: none;
 }
 
 a:hover {

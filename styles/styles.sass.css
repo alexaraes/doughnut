@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: Futura, Helvetica, Arial, sans-serif;
-  background-color: #080808; }
+  background-color: #F4F1F2; }
 
 h1, ul {
   margin: 0; }
@@ -11,15 +11,18 @@ h1 {
   font-size: 102px;
   text-align: center; }
 
-a {
+a, .navlinks {
   text-decoration: none;
   text-transform: uppercase;
   margin: 0 10px;
   color: #595959; }
 
+a {
+  text-transform: none; }
+
 a:hover {
-  color: #F4F1F2;
-  border-bottom: 1px solid #F4F1F2; }
+  color: #080808;
+  border-bottom: 1px solid #080808; }
 
 .nav {
   padding: 20px 0; }
