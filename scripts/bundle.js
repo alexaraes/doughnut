@@ -32527,7 +32527,7 @@ module.exports = React.createClass({
 					{ className: 'left-col' },
 					React.createElement(
 						'a',
-						{ href: 'doughnut/eatie/eatie-index.html' },
+						{ href: './eatie/eatie-index.html' },
 						React.createElement(
 							'h2',
 							null,
@@ -32555,7 +32555,7 @@ module.exports = React.createClass({
 					{ className: 'left-col' },
 					React.createElement(
 						'a',
-						{ href: 'doughnut/photo-album/dist/photo-home.html' },
+						{ href: './photo-album/dist/photo-home.html' },
 						React.createElement(
 							'h2',
 							null,
@@ -32583,7 +32583,7 @@ module.exports = React.createClass({
 					{ className: 'left-col' },
 					React.createElement(
 						'a',
-						{ href: 'doughnut/blog/blog-home.html' },
+						{ href: './blog/blog-home.html' },
 						React.createElement(
 							'h2',
 							null,
