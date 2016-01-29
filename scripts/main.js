@@ -1,5 +1,10 @@
 var React = require('react');
 var Backbone = require('backbone');
+var $ = require('jquery');
+
+var HomeComponent = require('./components/HomeComponent.js');
+
+var container = document.getElementById('main');
 
 var App = Backbone.Router.extend({
 	routes: {
@@ -12,8 +17,9 @@ var App = Backbone.Router.extend({
 		'images': 'images'
 	},
 	home: function(posts) {
-		React.render(
-			
+		ReactDOM.render(
+			<Home />, 
+			container
 		)
 	},
 	blog: function() {
