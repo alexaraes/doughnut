@@ -19,7 +19,7 @@ module.exports = React.createClass({
 
 		return {
 			errors:{},
-			posts: posts
+			posts: posts 
 		};
 	},
 	render: function() {
