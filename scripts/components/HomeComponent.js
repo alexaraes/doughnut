@@ -9,40 +9,47 @@ module.exports = React.createClass({
 					<h1 className="name">Alexa Rae Schreffler</h1>
 				</div>
 				<div className="container">
-					<div className="left-col">
-						<a href="./eatie/eatie-index.html"><h2>Eatie</h2></a>
-						<h3>Iron Yard final project - July 2015</h3>
-						<p>
-							Single-page web app <br />
-					 		CSS3, HTML5, Backbone.js, React.js, Parse
-						</p>
-					</div>
-					<div className="right-col">
-					</div>
+					<a href="./eatie/eatie-index.html">
+						<div className="left-col">
+							<h2>Eatie</h2>
+							<h3>Iron Yard final project - July 2015</h3>
+							<p>
+								Single-page web app <br />
+						 		CSS3, HTML5, Backbone.js, React.js, Parse
+							</p>
+						</div>
+						<div className="right-col">
+							<img src="./images/eatie-screencap.png" />
+						</div>
+					</a>
 				</div>
 				<div className="container">
-					<div className="left-col">
-						<a href="./photo-album/dist/photo-home.html"><h2>Photo Album</h2></a>
-						<h3>Album of my favorite photos - June 2015</h3>
-						<p>
-							CSS3, HTML5, Backbone.js, React.js
-						</p>
-					</div>
-					<div className="right-col">
-						
-					</div>
+					<a href="./photo-album/dist/photo-home.html">
+						<div className="left-col">
+							<h2>Photo Album</h2>
+							<h3>Album of my favorite photos - June 2015</h3>
+							<p>
+								CSS3, HTML5, Backbone.js, React.js
+							</p>
+						</div>
+						<div className="right-col">
+							<img src="./images/album-screencap.png" />
+						</div>
+					</a>
 				</div>
 				<div className="container">
-					<div className="left-col">
-						<a href="./blog/blog-home.html"><h2>Blog</h2></a>
-						<h3>Fun blog of various posts from various people</h3>
-						<p>
-							CSS3, HTML5, Backbone.js, React.js, Parse
-						</p>
-					</div>
-					<div className="right-col">
-						
-					</div>
+					<a href="./blog/blog-home.html">
+						<div className="left-col">
+							<h2>Blog</h2>
+							<h3>Fun blog of various posts from various people</h3>
+							<p>
+								CSS3, HTML5, Backbone.js, React.js, Parse
+							</p>
+						</div>
+						<div className="right-col">
+							<img src="./images/blog-screencap.png" />
+						</div>
+					</a>
 				</div>
 			</div>
 		);

@@ -10,6 +10,7 @@ module.exports = React.createClass({
 	render: function() {
 		this.props.posts.models.reverse(); 
 		postEls = this.props.posts.map(function(postModel) {
+			console.log('getting posts');
 
 			var postDate = moment(postModel.get('createdAt')).fromNow();
 

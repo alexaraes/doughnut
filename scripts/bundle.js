@@ -32523,87 +32523,99 @@ module.exports = React.createClass({
 				'div',
 				{ className: 'container' },
 				React.createElement(
-					'div',
-					{ className: 'left-col' },
+					'a',
+					{ href: './eatie/eatie-index.html' },
 					React.createElement(
-						'a',
-						{ href: './eatie/eatie-index.html' },
+						'div',
+						{ className: 'left-col' },
 						React.createElement(
 							'h2',
 							null,
 							'Eatie'
+						),
+						React.createElement(
+							'h3',
+							null,
+							'Iron Yard final project - July 2015'
+						),
+						React.createElement(
+							'p',
+							null,
+							'Single-page web app ',
+							React.createElement('br', null),
+							'CSS3, HTML5, Backbone.js, React.js, Parse'
 						)
 					),
 					React.createElement(
-						'h3',
-						null,
-						'Iron Yard final project - July 2015'
-					),
-					React.createElement(
-						'p',
-						null,
-						'Single-page web app ',
-						React.createElement('br', null),
-						'CSS3, HTML5, Backbone.js, React.js, Parse'
+						'div',
+						{ className: 'right-col' },
+						React.createElement('img', { src: './images/eatie-screencap.png' })
 					)
-				),
-				React.createElement('div', { className: 'right-col' })
+				)
 			),
 			React.createElement(
 				'div',
 				{ className: 'container' },
 				React.createElement(
-					'div',
-					{ className: 'left-col' },
+					'a',
+					{ href: './photo-album/dist/photo-home.html' },
 					React.createElement(
-						'a',
-						{ href: './photo-album/dist/photo-home.html' },
+						'div',
+						{ className: 'left-col' },
 						React.createElement(
 							'h2',
 							null,
 							'Photo Album'
+						),
+						React.createElement(
+							'h3',
+							null,
+							'Album of my favorite photos - June 2015'
+						),
+						React.createElement(
+							'p',
+							null,
+							'CSS3, HTML5, Backbone.js, React.js'
 						)
 					),
 					React.createElement(
-						'h3',
-						null,
-						'Album of my favorite photos - June 2015'
-					),
-					React.createElement(
-						'p',
-						null,
-						'CSS3, HTML5, Backbone.js, React.js'
+						'div',
+						{ className: 'right-col' },
+						React.createElement('img', { src: './images/album-screencap.png' })
 					)
-				),
-				React.createElement('div', { className: 'right-col' })
+				)
 			),
 			React.createElement(
 				'div',
 				{ className: 'container' },
 				React.createElement(
-					'div',
-					{ className: 'left-col' },
+					'a',
+					{ href: './blog/blog-home.html' },
 					React.createElement(
-						'a',
-						{ href: './blog/blog-home.html' },
+						'div',
+						{ className: 'left-col' },
 						React.createElement(
 							'h2',
 							null,
 							'Blog'
+						),
+						React.createElement(
+							'h3',
+							null,
+							'Fun blog of various posts from various people'
+						),
+						React.createElement(
+							'p',
+							null,
+							'CSS3, HTML5, Backbone.js, React.js, Parse'
 						)
 					),
 					React.createElement(
-						'h3',
-						null,
-						'Fun blog of various posts from various people'
-					),
-					React.createElement(
-						'p',
-						null,
-						'CSS3, HTML5, Backbone.js, React.js, Parse'
+						'div',
+						{ className: 'right-col' },
+						React.createElement('img', { src: './images/blog-screencap.png' })
 					)
-				),
-				React.createElement('div', { className: 'right-col' })
+				)
 			)
 		);
 	}

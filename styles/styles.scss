@@ -71,13 +71,14 @@ a:hover, a:focus {
 
 .contact-hero {
 	background: url('../images/img5.jpg') fixed no-repeat;
-	padding-top: 300px;
-	padding-bottom: 100px;
-	padding-left: 35%;
+	padding-top: 90px;
+	padding-bottom: 310px;
+	padding-right: 3%;
 
 	.contact-info {
 		color: black;
 		font-size: 80px;
+		text-align: right;
 	}
 }
 
@@ -89,7 +90,7 @@ a:hover, a:focus {
 }
 
 .left-col {
-	width: 60%;
+	width: 40%;
 	float: left;
 	color: $text-color;
 }
@@ -99,7 +100,7 @@ a:hover, a:focus {
 }
 
 .right-col {
-	width: 30%;
+	width: 50%;
 	float: right;
 	margin-left: 10%;
 }
