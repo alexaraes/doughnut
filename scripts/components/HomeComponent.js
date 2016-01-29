@@ -16,7 +16,6 @@ module.exports = React.createClass({
 						</p>
 					</div>
 					<div className="right-col">
-						
 					</div>
 				</div>
 				<div className="container">
