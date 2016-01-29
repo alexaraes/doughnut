@@ -32672,11 +32672,7 @@ module.exports = React.createClass({
 				{ className: 'container' },
 				React.createElement(
 					'a',
-<<<<<<< HEAD
 					{ href: '/blog/index.html' },
-=======
-					{ href: './blog/index.html' },
->>>>>>> master
 					React.createElement(
 						'div',
 						{ className: 'left-col' },

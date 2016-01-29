@@ -39,11 +39,7 @@ module.exports = React.createClass({
 					</a>
 				</div>
 				<div className="container">
-<<<<<<< HEAD
 					<a href="/blog/index.html">
-=======
-					<a href="./blog/index.html">
->>>>>>> master
 						<div className="left-col">
 							<h2>Blog</h2>
 							<h3>Fun blog of various posts from various people</h3>
