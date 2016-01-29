@@ -32393,7 +32393,7 @@ module.exports = React.createClass({
 				{ className: 'about-hero' },
 				React.createElement(
 					'h2',
-					{ className: 'info' },
+					{ className: 'about-info' },
 					'About'
 				)
 			),
@@ -32471,7 +32471,7 @@ module.exports = React.createClass({
 				{ className: 'contact-hero' },
 				React.createElement(
 					'h2',
-					{ className: 'info' },
+					{ className: 'contact-info' },
 					'Contact Me'
 				)
 			),
@@ -32515,7 +32515,7 @@ module.exports = React.createClass({
 				{ className: 'hero' },
 				React.createElement(
 					'h1',
-					null,
+					{ className: 'name' },
 					'Alexa Rae Schreffler'
 				)
 			),

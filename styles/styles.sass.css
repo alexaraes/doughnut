@@ -6,13 +6,10 @@ body {
 h1, h2, ul {
   margin: 0; }
 
-h1, .info {
+h1 {
   color: black;
   font-size: 102px;
   text-align: center; }
-
-.info {
-  font-size: 80px; }
 
 a, .navlinks {
   text-decoration: none;
@@ -37,16 +34,32 @@ a:hover, a:focus {
     vertical-align: middle;
     margin: 0 auto; }
 
-.hero, .contact-hero {
-  padding-top: 150px;
-  padding-bottom: 150px; }
-
-.about-hero {
+.hero, .about-hero, .contact-hero {
   background: url("../images/profileimg.jpg") fixed no-repeat;
   background-size: cover;
-  background-position: 0% 150%;
+  background-position: 0% 200%;
+  padding-top: 100px;
+  padding-bottom: 300px;
+  padding-left: 4%; }
+  .hero .about-info, .about-hero .about-info, .contact-hero .about-info {
+    color: black;
+    font-size: 80px;
+    text-align: left; }
+
+.hero {
+  background: url("../images/fisheye1.jpg") fixed no-repeat;
   padding-top: 200px;
+  background-position: 0% 75%;
   padding-bottom: 200px; }
+
+.contact-hero {
+  background: url("../images/img5.jpg") fixed no-repeat;
+  padding-top: 300px;
+  padding-bottom: 100px;
+  padding-left: 35%; }
+  .contact-hero .contact-info {
+    color: black;
+    font-size: 80px; }
 
 .container, footer {
   width: 960px;

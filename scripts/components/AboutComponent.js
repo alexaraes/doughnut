@@ -5,7 +5,7 @@ module.exports = React.createClass({
 	render: function() {
 		return (
 			<div>
-				<div className="about-hero"><h2 className="info">About</h2></div>
+				<div className="about-hero"><h2 className="about-info">About</h2></div>
 				<div className="container">
 					<div className="left-col">
 						

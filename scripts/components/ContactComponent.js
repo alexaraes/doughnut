@@ -6,7 +6,7 @@ module.exports = React.createClass({
 		return (
 			<div>
 
-				<div className="contact-hero"><h2 className="info">Contact Me</h2></div>
+				<div className="contact-hero"><h2 className="contact-info">Contact Me</h2></div>
 
 				<div className="container">
 					<div>
