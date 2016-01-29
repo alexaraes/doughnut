@@ -32527,7 +32527,7 @@ module.exports = React.createClass({
 					{ className: 'left-col' },
 					React.createElement(
 						'a',
-						{ href: '/eatie/eatie-index.html' },
+						{ href: './eatie/eatie-index.html' },
 						React.createElement(
 							'h2',
 							null,
@@ -32535,9 +32535,14 @@ module.exports = React.createClass({
 						)
 					),
 					React.createElement(
+						'h3',
+						null,
+						'Iron Yard final project - July 2015'
+					),
+					React.createElement(
 						'p',
 						null,
-						'Taxidermy gastropub lo-fi, vinyl marfa swag kombucha ramps chambray farm-to-table ugh truffaut austin. Pug wayfarers asymmetrical twee cred migas tousled mustache, four loko ennui tilde chartreuse sartorial man bun authentic. Blue bottle banh mi lomo pitchfork pinterest. Chambray green juice shabby chic cornhole. Brooklyn narwhal hella, kitsch wayfarers fingerstache gluten-free lomo paleo.'
+						'CSS3, HTML5, Backbone.js, React.js'
 					)
 				),
 				React.createElement('div', { className: 'right-col' })
@@ -32550,7 +32555,7 @@ module.exports = React.createClass({
 					{ className: 'left-col' },
 					React.createElement(
 						'a',
-						{ href: '/photo-album/dist/photo-home.html' },
+						{ href: './photo-album/dist/photo-home.html' },
 						React.createElement(
 							'h2',
 							null,
@@ -32558,9 +32563,14 @@ module.exports = React.createClass({
 						)
 					),
 					React.createElement(
+						'h3',
+						null,
+						'Album of my personal photos - June 2015'
+					),
+					React.createElement(
 						'p',
 						null,
-						'Taxidermy gastropub lo-fi, vinyl marfa swag kombucha ramps chambray farm-to-table ugh truffaut austin. Pug wayfarers asymmetrical twee cred migas tousled mustache, four loko ennui tilde chartreuse sartorial man bun authentic. Blue bottle banh mi lomo pitchfork pinterest. Chambray green juice shabby chic cornhole. Brooklyn narwhal hella, kitsch wayfarers fingerstache gluten-free lomo paleo.'
+						'CSS3, HTML5, Backbone.js, React.js'
 					)
 				),
 				React.createElement('div', { className: 'right-col' })
@@ -32573,7 +32583,7 @@ module.exports = React.createClass({
 					{ className: 'left-col' },
 					React.createElement(
 						'a',
-						{ href: '/blog/blog-home.html' },
+						{ href: './blog/blog-home.html' },
 						React.createElement(
 							'h2',
 							null,
@@ -32581,9 +32591,14 @@ module.exports = React.createClass({
 						)
 					),
 					React.createElement(
+						'h3',
+						null,
+						'Fun blog of various posts from various people'
+					),
+					React.createElement(
 						'p',
 						null,
-						'Taxidermy gastropub lo-fi, vinyl marfa swag kombucha ramps chambray farm-to-table ugh truffaut austin. Pug wayfarers asymmetrical twee cred migas tousled mustache, four loko ennui tilde chartreuse sartorial man bun authentic. Blue bottle banh mi lomo pitchfork pinterest. Chambray green juice shabby chic cornhole. Brooklyn narwhal hella, kitsch wayfarers fingerstache gluten-free lomo paleo.'
+						'CSS3, HTML5, Backbone.js, React.js'
 					)
 				),
 				React.createElement('div', { className: 'right-col' })
