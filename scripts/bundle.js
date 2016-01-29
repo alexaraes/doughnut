@@ -32480,24 +32480,16 @@ module.exports = React.createClass({
 				{ className: 'container' },
 				React.createElement(
 					'div',
-					{ className: 'left-col' },
-					React.createElement(
-						'h2',
-						null,
-						'Email'
-					)
+					{ className: 'contact-left-col' },
+					React.createElement('img', { className: 'contact-icon', src: '../images/Email-icon.png' })
 				),
 				React.createElement(
 					'div',
-					{ className: 'right-col' },
+					{ className: 'contact-right-col' },
 					React.createElement(
 						'a',
-						{ href: 'http://www.linkedin.com/in/alexaraes' },
-						React.createElement(
-							'h3',
-							null,
-							'alexa.schreffler@gmail.com'
-						)
+						{ href: 'mailto:alexa.schreffler@gmail.com' },
+						'alexa.schreffler@gmail.com'
 					)
 				)
 			),
@@ -32506,24 +32498,16 @@ module.exports = React.createClass({
 				{ className: 'container' },
 				React.createElement(
 					'div',
-					{ className: 'left-col' },
-					React.createElement(
-						'h2',
-						null,
-						'LinkedIn'
-					)
+					{ className: 'contact-left-col' },
+					React.createElement('img', { className: 'contact-icon', src: '../images/linkedin-3-512.png' })
 				),
 				React.createElement(
 					'div',
-					{ className: 'right-col' },
+					{ className: 'contact-right-col' },
 					React.createElement(
 						'a',
 						{ href: 'http://www.linkedin.com/in/alexaraes' },
-						React.createElement(
-							'h3',
-							null,
-							'linkedin/in/alexaraes'
-						)
+						'linkedin/in/alexaraes'
 					)
 				)
 			),
@@ -32532,24 +32516,52 @@ module.exports = React.createClass({
 				{ className: 'container' },
 				React.createElement(
 					'div',
-					{ className: 'left-col' },
-					React.createElement(
-						'h2',
-						null,
-						'GitHub'
-					)
+					{ className: 'contact-left-col' },
+					React.createElement('img', { className: 'contact-icon', src: '../images/github-icon.png' })
 				),
 				React.createElement(
 					'div',
-					{ className: 'right-col' },
+					{ className: 'contact-right-col' },
 					React.createElement(
 						'a',
 						{ href: 'http://www.github.com/alexaraes' },
-						React.createElement(
-							'h2',
-							null,
-							'github.com/alexaraes'
-						)
+						'github.com/alexaraes'
+					)
+				)
+			),
+			React.createElement(
+				'div',
+				{ className: 'container' },
+				React.createElement(
+					'div',
+					{ className: 'contact-left-col' },
+					React.createElement('img', { className: 'contact-icon', src: '../images/twitter.png' })
+				),
+				React.createElement(
+					'div',
+					{ className: 'contact-right-col' },
+					React.createElement(
+						'a',
+						{ href: 'http://www.twitter.com/awrecksa' },
+						'twitter.com/awrecksa'
+					)
+				)
+			),
+			React.createElement(
+				'div',
+				{ className: 'container' },
+				React.createElement(
+					'div',
+					{ className: 'contact-left-col' },
+					React.createElement('img', { className: 'contact-icon', src: '../images/tumblr-6-512.png' })
+				),
+				React.createElement(
+					'div',
+					{ className: 'contact-right-col' },
+					React.createElement(
+						'a',
+						{ href: 'awrecksa.tumblr.com' },
+						'awrecksa.tumblr.com'
 					)
 				)
 			)

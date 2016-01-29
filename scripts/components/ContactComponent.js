@@ -9,32 +9,52 @@ module.exports = React.createClass({
 				<div className="contact-hero"><h2 className="contact-info">Contact Me</h2></div>
 
 				<div className="container">
-					<div className="left-col">
-						<h2>Email</h2>
+					<div className="contact-left-col">
+						<img className="contact-icon" src="../images/Email-icon.png" />
 					</div>
-					<div className="right-col">
-						<a href="http://www.linkedin.com/in/alexaraes">
-							<h3>alexa.schreffler@gmail.com</h3>
+					<div className="contact-right-col">
+						<a href="mailto:alexa.schreffler@gmail.com">
+							alexa.schreffler@gmail.com
 						</a>
 					</div>
 				</div>
 				<div className="container">
-					<div className="left-col">
-						<h2>LinkedIn</h2>
+					<div className="contact-left-col">
+						<img className="contact-icon" src="../images/linkedin-3-512.png" />
 					</div>
-					<div className="right-col">
+					<div className="contact-right-col">
 						<a href="http://www.linkedin.com/in/alexaraes">
-							<h3>linkedin/in/alexaraes</h3>
+							linkedin/in/alexaraes
 						</a>
 					</div>
 				</div>
 				<div className="container">
-					<div className="left-col">
-						<h2>GitHub</h2>
+					<div className="contact-left-col">
+						<img className="contact-icon" src="../images/github-icon.png" />
 					</div>
-					<div className="right-col">
+					<div className="contact-right-col">
 						<a href="http://www.github.com/alexaraes">
-							<h2>github.com/alexaraes</h2>
+							github.com/alexaraes
+						</a>
+					</div>
+				</div>
+				<div className="container">
+					<div className="contact-left-col">
+						<img className="contact-icon" src="../images/twitter.png" />
+					</div>
+					<div className="contact-right-col">
+						<a href="http://www.twitter.com/awrecksa">
+							twitter.com/awrecksa
+						</a>
+					</div>
+				</div>
+				<div className="container">
+					<div className="contact-left-col">
+						<img className="contact-icon" src="../images/tumblr-6-512.png" />
+					</div>
+					<div className="contact-right-col">
+						<a href="awrecksa.tumblr.com">
+							awrecksa.tumblr.com
 						</a>
 					</div>
 				</div>
