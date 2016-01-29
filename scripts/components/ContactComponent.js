@@ -6,7 +6,7 @@ module.exports = React.createClass({
 		return (
 			<div>
 
-				<h2 className="info">Contact Me</h2>
+				<div className="contact-hero"><h2 className="info">Contact Me</h2></div>
 
 				<div className="container">
 					<div>
@@ -16,7 +16,7 @@ module.exports = React.createClass({
 						</a>
 					</div>
 				</div>
-				
+
 			</div>
 		);
 	}

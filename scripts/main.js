@@ -12,10 +12,10 @@ var nav = document.getElementById('nav');
 
 var hash = window.location.hash;
 
-// ReactDOM.render(
-// 	<NavBar />,
-// 	nav
-// )
+ReactDOM.render(
+	<NavBar />,
+	nav
+)
 
 var App = Backbone.Router.extend({
 	routes: {

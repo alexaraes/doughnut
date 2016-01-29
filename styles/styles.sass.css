@@ -7,7 +7,7 @@ h1, h2, ul {
   margin: 0; }
 
 h1, .info {
-  color: #B28997;
+  color: black;
   font-size: 102px;
   text-align: center; }
 
@@ -24,19 +24,29 @@ a {
   text-transform: none; }
 
 a:hover, a:focus {
-  color: #080808;
+  color: #595959;
   border-bottom: 1px solid #080808; }
 
-.nav {
-  padding: 20px 0; }
-  .nav li {
+#nav {
+  padding: 10px 0;
+  background-color: #F4F1F2;
+  position: fixed;
+  width: 100%; }
+  #nav li {
     display: inline-block;
     vertical-align: middle;
     margin: 0 auto; }
 
-.hero {
+.hero, .contact-hero {
   padding-top: 150px;
   padding-bottom: 150px; }
+
+.about-hero {
+  background: url("../images/profileimg.jpg") fixed no-repeat;
+  background-size: cover;
+  background-position: 0% 150%;
+  padding-top: 200px;
+  padding-bottom: 200px; }
 
 .container, footer {
   width: 960px;

@@ -6,13 +6,13 @@ module.exports = React.createClass({
 		return (
 			<ul>
 				<li>
-					<a class="navlinks" href="#home">home</a>
+					<a className="navlinks" href="#home">home</a>
 				</li>
 				<li>
-					<a class="navlinks" href="#about">about</a>
+					<a className="navlinks" href="#about">about</a>
 				</li>
 				<li>
-					<a class="navlinks" href="#contact">contact</a>
+					<a className="navlinks" href="#contact">contact</a>
 				</li>
 			</ul>
 		);

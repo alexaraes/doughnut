@@ -32389,31 +32389,18 @@ module.exports = React.createClass({
 			'div',
 			null,
 			React.createElement(
-				'h2',
-				{ className: 'info' },
-				'About'
+				'div',
+				{ className: 'about-hero' },
+				React.createElement(
+					'h2',
+					{ className: 'info' },
+					'About'
+				)
 			),
 			React.createElement(
 				'div',
 				{ className: 'container' },
-				React.createElement(
-					'div',
-					{ className: 'left-col' },
-					React.createElement(
-						'a',
-						{ href: '/eatie/eatie-index.html' },
-						React.createElement(
-							'h2',
-							null,
-							'Eatie'
-						)
-					),
-					React.createElement(
-						'p',
-						null,
-						'Taxidermy gastropub lo-fi, vinyl marfa swag kombucha ramps chambray farm-to-table ugh truffaut austin. Pug wayfarers asymmetrical twee cred migas tousled mustache, four loko ennui tilde chartreuse sartorial man bun authentic. Blue bottle banh mi lomo pitchfork pinterest. Chambray green juice shabby chic cornhole. Brooklyn narwhal hella, kitsch wayfarers fingerstache gluten-free lomo paleo.'
-					)
-				),
+				React.createElement('div', { className: 'left-col' }),
 				React.createElement('div', { className: 'right-col' })
 			),
 			React.createElement(
@@ -32480,9 +32467,13 @@ module.exports = React.createClass({
 			'div',
 			null,
 			React.createElement(
-				'h2',
-				{ className: 'info' },
-				'Contact Me'
+				'div',
+				{ className: 'contact-hero' },
+				React.createElement(
+					'h2',
+					{ className: 'info' },
+					'Contact Me'
+				)
 			),
 			React.createElement(
 				'div',
@@ -32619,7 +32610,7 @@ module.exports = React.createClass({
 				null,
 				React.createElement(
 					'a',
-					{ 'class': 'navlinks', href: '#home' },
+					{ className: 'navlinks', href: '#home' },
 					'home'
 				)
 			),
@@ -32628,7 +32619,7 @@ module.exports = React.createClass({
 				null,
 				React.createElement(
 					'a',
-					{ 'class': 'navlinks', href: '#about' },
+					{ className: 'navlinks', href: '#about' },
 					'about'
 				)
 			),
@@ -32637,7 +32628,7 @@ module.exports = React.createClass({
 				null,
 				React.createElement(
 					'a',
-					{ 'class': 'navlinks', href: '#contact' },
+					{ className: 'navlinks', href: '#contact' },
 					'contact'
 				)
 			)
@@ -32662,10 +32653,7 @@ var nav = document.getElementById('nav');
 
 var hash = window.location.hash;
 
-// ReactDOM.render(
-// 	<NavBar />,
-// 	nav
-// )
+ReactDOM.render(React.createElement(NavBar, null), nav);
 
 var App = Backbone.Router.extend({
 	routes: {
