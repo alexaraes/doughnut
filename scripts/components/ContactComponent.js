@@ -10,7 +10,7 @@ module.exports = React.createClass({
 
 				<div className="container">
 					<div className="contact-left-col">
-						<img className="contact-icon" src="../images/Email-icon.png" />
+						<img className="contact-icon" src="../../images/Email-icon.png" />
 					</div>
 					<div className="contact-right-col">
 						<a href="mailto:alexa.schreffler@gmail.com">
@@ -20,7 +20,7 @@ module.exports = React.createClass({
 				</div>
 				<div className="container">
 					<div className="contact-left-col">
-						<img className="contact-icon" src="../images/linkedin-3-512.png" />
+						<img className="contact-icon" src="../../images/linkedin-3-512.png" />
 					</div>
 					<div className="contact-right-col">
 						<a href="http://www.linkedin.com/in/alexaraes">
@@ -30,7 +30,7 @@ module.exports = React.createClass({
 				</div>
 				<div className="container">
 					<div className="contact-left-col">
-						<img className="contact-icon" src="../images/github-icon.png" />
+						<img className="contact-icon" src="../../images/github-icon.png" />
 					</div>
 					<div className="contact-right-col">
 						<a href="http://www.github.com/alexaraes">
@@ -40,7 +40,7 @@ module.exports = React.createClass({
 				</div>
 				<div className="container">
 					<div className="contact-left-col">
-						<img className="contact-icon" src="../images/twitter.png" />
+						<img className="contact-icon" src="../../images/twitter.png" />
 					</div>
 					<div className="contact-right-col">
 						<a href="http://www.twitter.com/awrecksa">
@@ -50,7 +50,7 @@ module.exports = React.createClass({
 				</div>
 				<div className="container">
 					<div className="contact-left-col">
-						<img className="contact-icon" src="../images/tumblr-6-512.png" />
+						<img className="contact-icon" src="../../images/tumblr-6-512.png" />
 					</div>
 					<div className="contact-right-col">
 						<a href="awrecksa.tumblr.com">
