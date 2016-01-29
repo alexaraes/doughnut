@@ -32590,7 +32590,7 @@ module.exports = React.createClass({
 				{ className: 'container' },
 				React.createElement(
 					'a',
-					{ href: './blog/index.html' },
+					{ href: '../blog/index.html' },
 					React.createElement(
 						'div',
 						{ className: 'left-col' },
