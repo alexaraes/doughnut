@@ -12,7 +12,7 @@ module.exports = React.createClass({
 					<div>
 						<a href="http://www.linkedin.com/in/alexaraes">
 							<h2>Linked In</h2>
-							<img src="/../../images/linkedin.png" />
+							<img src="/images/linkedin.png" />
 						</a>
 					</div>
 				</div>

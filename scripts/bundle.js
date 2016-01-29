@@ -32489,7 +32489,7 @@ module.exports = React.createClass({
 							null,
 							'Linked In'
 						),
-						React.createElement('img', { src: '/../../images/linkedin.png' })
+						React.createElement('img', { src: '/images/linkedin.png' })
 					)
 				)
 			)
