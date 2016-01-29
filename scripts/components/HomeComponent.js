@@ -9,49 +9,55 @@ module.exports = React.createClass({
 					<h1 className="name">Alexa Rae Schreffler</h1>
 				</div>
 				<div className="container">
-					<a href="./eatie/eatie-index.html">
-						<div className="left-col">
+					<div className="left-col">
+						<a href="./eatie/eatie-index.html">
 							<h2>Eatie</h2>
 							<h3>Iron Yard final project - July 2015</h3>
-							<p>
-								<a href="https://github.com/alexaraes/eatie">Source code</a><br />
-						 		CSS3, HTML5, Backbone.js, React.js, Parse
-							</p>
-						</div>
-						<div className="right-col">
+						</a>
+						<p>
+							<a href="https://github.com/alexaraes/eatie">Source code</a><br />
+					 		CSS3, HTML5, Backbone.js, React.js, Parse
+						</p>
+					</div>
+					<div className="right-col">
+						<a href="./eatie/eatie-index.html">
 							<img src="./images/eatie-screencap.png" />
-						</div>
-					</a>
+						</a>
+					</div>
 				</div>
 				<div className="container">
-					<a href="./photo-album/dist/photo-home.html">
-						<div className="left-col">
+					<div className="left-col">
+						<a href="./photo-album/dist/photo-home.html">
 							<h2>Photo Album</h2>
 							<h3>Album of my favorite photos - June 2015</h3>
-							<p>
-								<a href="https://github.com/alexaraes/photo-album-page/tree/master/dist">Source code</a><br />
-								CSS3, HTML5, Backbone.js, React.js
-							</p>
-						</div>
-						<div className="right-col">
+						</a>
+						<p>
+							<a href="https://github.com/alexaraes/photo-album-page/tree/master/dist">Source code</a><br />
+							CSS3, HTML5, Backbone.js, React.js
+						</p>
+					</div>
+					<div className="right-col">
+						<a href="./photo-album/dist/photo-home.html">
 							<img src="./images/album-screencap.png" />
-						</div>
-					</a>
+						</a>
+					</div>
 				</div>
 				<div className="container">
-					<a href="/blog/index.html">
-						<div className="left-col">
+					<div className="left-col">
+						<a href="/blog/index.html">
 							<h2>Blog</h2>
 							<h3>Fun blog of various posts from various people</h3>
-							<p>
-								<a href="https://github.com/alexaraes/blog-practice">Source code</a><br />
-								CSS3, HTML5, Backbone.js, React.js, Parse
-							</p>
-						</div>
-						<div className="right-col">
+						</a>
+						<p>
+							<a href="https://github.com/alexaraes/blog-practice">Source code</a><br />
+							CSS3, HTML5, Backbone.js, React.js, Parse
+						</p>
+					</div>
+					<div className="right-col">
+						<a href="/blog/index.html">
 							<img src="./images/blog-screencap.png" />
-						</div>
-					</a>
+						</a>
+					</div>
 				</div>
 			</div>
 		);

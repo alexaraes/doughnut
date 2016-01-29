@@ -32595,11 +32595,11 @@ module.exports = React.createClass({
 				'div',
 				{ className: 'container' },
 				React.createElement(
-					'a',
-					{ href: './eatie/eatie-index.html' },
+					'div',
+					{ className: 'left-col' },
 					React.createElement(
-						'div',
-						{ className: 'left-col' },
+						'a',
+						{ href: './eatie/eatie-index.html' },
 						React.createElement(
 							'h2',
 							null,
@@ -32609,22 +32609,26 @@ module.exports = React.createClass({
 							'h3',
 							null,
 							'Iron Yard final project - July 2015'
-						),
-						React.createElement(
-							'p',
-							null,
-							React.createElement(
-								'a',
-								{ href: 'https://github.com/alexaraes/eatie' },
-								'Source code'
-							),
-							React.createElement('br', null),
-							'CSS3, HTML5, Backbone.js, React.js, Parse'
 						)
 					),
 					React.createElement(
-						'div',
-						{ className: 'right-col' },
+						'p',
+						null,
+						React.createElement(
+							'a',
+							{ href: 'https://github.com/alexaraes/eatie' },
+							'Source code'
+						),
+						React.createElement('br', null),
+						'CSS3, HTML5, Backbone.js, React.js, Parse'
+					)
+				),
+				React.createElement(
+					'div',
+					{ className: 'right-col' },
+					React.createElement(
+						'a',
+						{ href: './eatie/eatie-index.html' },
 						React.createElement('img', { src: './images/eatie-screencap.png' })
 					)
 				)
@@ -32633,11 +32637,11 @@ module.exports = React.createClass({
 				'div',
 				{ className: 'container' },
 				React.createElement(
-					'a',
-					{ href: './photo-album/dist/photo-home.html' },
+					'div',
+					{ className: 'left-col' },
 					React.createElement(
-						'div',
-						{ className: 'left-col' },
+						'a',
+						{ href: './photo-album/dist/photo-home.html' },
 						React.createElement(
 							'h2',
 							null,
@@ -32647,22 +32651,26 @@ module.exports = React.createClass({
 							'h3',
 							null,
 							'Album of my favorite photos - June 2015'
-						),
-						React.createElement(
-							'p',
-							null,
-							React.createElement(
-								'a',
-								{ href: 'https://github.com/alexaraes/photo-album-page/tree/master/dist' },
-								'Source code'
-							),
-							React.createElement('br', null),
-							'CSS3, HTML5, Backbone.js, React.js'
 						)
 					),
 					React.createElement(
-						'div',
-						{ className: 'right-col' },
+						'p',
+						null,
+						React.createElement(
+							'a',
+							{ href: 'https://github.com/alexaraes/photo-album-page/tree/master/dist' },
+							'Source code'
+						),
+						React.createElement('br', null),
+						'CSS3, HTML5, Backbone.js, React.js'
+					)
+				),
+				React.createElement(
+					'div',
+					{ className: 'right-col' },
+					React.createElement(
+						'a',
+						{ href: './photo-album/dist/photo-home.html' },
 						React.createElement('img', { src: './images/album-screencap.png' })
 					)
 				)
@@ -32671,11 +32679,11 @@ module.exports = React.createClass({
 				'div',
 				{ className: 'container' },
 				React.createElement(
-					'a',
-					{ href: '/blog/index.html' },
+					'div',
+					{ className: 'left-col' },
 					React.createElement(
-						'div',
-						{ className: 'left-col' },
+						'a',
+						{ href: '/blog/index.html' },
 						React.createElement(
 							'h2',
 							null,
@@ -32685,22 +32693,26 @@ module.exports = React.createClass({
 							'h3',
 							null,
 							'Fun blog of various posts from various people'
-						),
-						React.createElement(
-							'p',
-							null,
-							React.createElement(
-								'a',
-								{ href: 'https://github.com/alexaraes/blog-practice' },
-								'Source code'
-							),
-							React.createElement('br', null),
-							'CSS3, HTML5, Backbone.js, React.js, Parse'
 						)
 					),
 					React.createElement(
-						'div',
-						{ className: 'right-col' },
+						'p',
+						null,
+						React.createElement(
+							'a',
+							{ href: 'https://github.com/alexaraes/blog-practice' },
+							'Source code'
+						),
+						React.createElement('br', null),
+						'CSS3, HTML5, Backbone.js, React.js, Parse'
+					)
+				),
+				React.createElement(
+					'div',
+					{ className: 'right-col' },
+					React.createElement(
+						'a',
+						{ href: '/blog/index.html' },
 						React.createElement('img', { src: './images/blog-screencap.png' })
 					)
 				)
