@@ -1,0 +1,183 @@
+$main-color: #828282;
+$main-text: black;
+// * {
+// 	border: 1px solid red;
+// }
+
+
+body { 
+	font-family: Avenir, Lato, Helvetica, sans-serif;
+	font-weight: lighter;
+	box-sizing: border-box;
+}
+
+h1 {
+	margin: 0;
+	font-weight: lighter;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+#header {
+	box-sizing: border-box;
+	text-align: center;
+	font-size: 50px;
+	width: 100%;
+	height: 100px;
+	color: $main-text;
+	background-color: $main-color;
+	margin: 30px 0 30px 0;
+}
+
+.div1, .div2 {
+	text-align: center;
+	height: 400px;
+	width: 25%;
+	display: inline-block;
+	margin: 0 40px 50px 65px;
+
+	.preview {
+		height: 300px;
+		border: 3px solid black;
+		margin: auto;
+		overflow: hidden;
+	}
+
+	.label {
+		box-sizing: border-box;
+		background-color: white;
+		border: 1px solid $main-color;
+		color: $main-text;
+		height: 100px;
+		text-align: center;
+		font-size: 30px;
+		padding-top: 25px;
+		margin-top: 10px;
+		border-radius: 15px;
+		transition: color 0.1s ease-in-out, background-color 0.1s ease-in-out, border 0.1s ease-in-out;
+	}
+	.label:hover {
+		box-sizing: border-box;
+		background-color: $main-color;
+		color: black;
+	}
+
+}
+
+.navbar {
+	box-sizing: border-box;
+	position: absolute;
+	float: left;
+	width: 200px;
+	height: 5000px;
+	padding-top: 30px;
+	clear: both;
+	position: fixed;
+
+	.album-btn {
+		box-sizing: border-box;
+		background-color: white;
+		border: 1px solid $main-color;
+		height: 50px;
+		width: 150px;
+		margin: 15% 2% 0 10%;
+		color: $main-text;
+		text-align: center;
+		padding-top: 15px;
+		border-radius: 25px;
+		transition: color 0.1s ease-in-out, background-color 0.1s ease-in-out, border 0.1s ease-in-out;
+	}
+}
+
+.album-btn:hover {
+			box-sizing: border-box;
+			background-color: $main-color;
+			color: black;
+		}
+
+.title {
+	box-sizing: border-box;
+	height: 100px;
+	color: $main-text;
+	font-size: 75px;
+	padding-top: 20px;
+	text-align: center;
+}
+
+#top-div, #bottom-div {
+	display: table;
+	height: 250px;
+	width: 85%;
+	padding-left: 15%;
+
+	.top-row, .bottom-row {
+	text-align: center;
+	height: 150px;
+	width: 20%;
+	display: inline-block;
+	padding-left: 55px;
+	margin: 100px 30px 10px 0px;
+
+		.img {
+			box-sizing: border-box;
+			border: 2px solid black;
+			height: 300px;
+			width: 300px;
+			overflow: hidden;
+		}
+
+		.photo {
+			box-sizing: border-box;
+			height: 40px;
+			width: 300px;
+			text-align: left;
+			margin-top: 3%;
+			padding-top: 2%;
+			margin-bottom: 250px;
+		}
+	}
+}
+
+img {
+	position: relative;
+	bottom: 40px;
+	width: 110%;
+	height: 130%;
+}
+
+.big-pic {
+	box-sizing: border-box;
+	height: 550px;
+	width: 550px;
+	overflow: hidden;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+div.back-btn {
+	box-sizing: border-box;
+	background-color: white;
+	border: 1px solid $main-color;
+	height: 50px;
+	width: 150px;
+	margin: 0 1% 0 2%;
+	color: $main-text;
+	text-align: center;
+	padding-top: 15px;
+	border-radius: 25px;
+	transition: color 0.1s ease-in-out, background-color 0.1s ease-in-out, border 0.1s ease-in-out;
+}
+
+div.back-btn:hover {
+	box-sizing: border-box;
+	background-color: $main-color;
+	color: black;
+}
+
+
+

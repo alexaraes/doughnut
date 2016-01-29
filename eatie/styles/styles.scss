@@ -1,0 +1,537 @@
+$decorfont: 'Palanquin Dark', sans-serif;
+$titlefont: 'Open Sans', sans-serif;
+
+@-ms-viewport{
+  width: device-width;
+}
+
+* {
+  font-family: $titlefont;
+}
+
+.map-canvas { 
+  height: 200px; 
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 2px solid #8a0000;
+  border-bottom: 2px solid #8a0000;
+}
+
+.infoDiv {
+  padding-top: 100px;
+}
+
+.infoName {
+  text-align: left;
+  font-size: 6vw;
+  margin-bottom: 20px;
+  margin-left: 30px;
+}
+
+.infoAdd {
+  text-align: left;
+  font-size: 4.5vw;
+  margin-bottom: 30px;
+  margin-left: 30px;
+}
+
+#container {
+  font: $titlefont, sans-serif;
+  height: auto;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-color: white;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+li {
+  color: #fde0a0;
+  font-size: 25px;
+}
+
+a {
+  text-decoration: none;
+  border: none;
+  color: #feeabe;
+  
+}
+
+a:hover, a:focus {
+    color: white;
+  }
+
+.homeContainer {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  padding-bottom: 50px;
+}
+
+.admin {
+  box-sizing: border-box;
+  padding-top: 20%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.adminTitle {
+  font-size: 5vw;
+  margin-bottom: 20px;
+}
+
+input, button {
+  width: 50%;
+  height: 50px;
+  margin: 25px;
+  font-size: 4vw;
+}
+
+button {
+  width: 25%;
+  margin: 25px;
+  border: none;
+  background-color: #751515;
+  color: #fde0a0;
+}
+
+.categoryDiv {
+  text-align: center;
+}
+
+.shareContainer {
+  color: black;
+  padding-top: 20%;
+  text-align: center;
+}
+
+#container .box {
+  box-sizing: border-box;
+  cursor: pointer;
+  float: left;
+  position: relative;
+  overflow: hidden;
+  width: 345px;
+  margin-left: auto;
+  margin-right: auto;
+
+  img {
+    width: 100%;
+  }
+}
+
+/* Caption Common Style */
+#container .box .caption {
+  box-sizing: border-box;
+  background-color: rgba(0,0,0,0.8);
+  position: absolute;
+  color: #fff;
+  z-index: 9;
+  -webkit-transition: all 300ms ease-out;
+  -moz-transition: all 300ms ease-out;
+  -o-transition: all 300ms ease-out;
+  -ms-transition: all 300ms ease-out; 
+  transition: all 300ms ease-out;
+  left: 0;
+}
+
+
+/** Caption 3: Fade **/
+#container .box .fade-caption, #container .box .scale-caption  {
+  box-sizing: border-box;
+  opacity: 0;
+  height: 100%;
+  width: 100%;
+  text-align: left;
+  padding: 10%;
+}
+
+#container .box:hover .fade-caption, #container .box:hover .scale-caption, #container .box:focus .fade-caption, #container .box:focus .scale-caption  {
+  box-sizing: border-box;
+  opacity: 1;
+}
+
+.box {
+  box-sizing: border-box;
+  width: 390px;
+  float: left;
+  // background-position: 65% 5%;
+  border: 1px solid black;
+  border-color: black;
+  margin-left: auto;
+  margin-right: auto;
+  display:block;
+
+  img {
+    width: 100%;
+    margin-bottom: -5px;
+  }
+}
+
+.grid {
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px
+}
+
+/* clearfix */
+.box:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.suggName {
+  font-size: 32px;
+  margin-bottom: 7%;
+  margin-top: 2%;
+}
+
+.suggFood {
+  font-size: 24px;
+  margin-bottom: 8%;
+  color: #f50000;
+}
+
+.suggAdd, .suggCat {
+  font-size: 16px;
+}
+
+.suggCat {
+  margin-top: 20px;
+}
+
+.navbar {
+  box-sizing: border-box;
+  color: #e2e1dd;
+  height: 60px;
+  width: 100%;
+  background-color: #8a0000;
+  position: fixed;
+  z-index: 10;
+  font-family: $titlefont;
+  text-align: right;
+  padding-top: 10px;
+
+  .navLink {
+    display: inline-block;
+    color: #fde0a0;
+    margin-right: 5%;
+    margin-top: 8px;
+  }
+
+
+  .navLink2 {
+    position: absolute;
+    left: 0;
+    font-family: $decorfont;
+    font-size: 28px;
+    margin-left: 3%;
+    margin-bottom: 10px;
+    display: inline-block;
+    color: #fde0a0;
+    margin-right: 5%;
+  }
+
+  .greet {
+    text-align: left;
+    display: none;
+    color: #feeabe;
+    margin-right: 6%;
+  }
+}
+
+.categories {
+  height: 60px;
+  width: 100%;
+  margin-bottom: 30px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease;
+}
+
+.catLink {
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.catDiv {
+  padding: 5%;
+}
+
+.bg-img {
+  height: 500px;
+  padding-bottom: 300px;
+  margin-bottom: 20px;
+  position: relative;
+  background-image: url('../images/austin.jpg');
+  /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+  
+  /* Background image doesn't tile */
+  background-repeat: no-repeat;
+  
+  /* Background image is fixed in the viewport so that it doesn't move when 
+     the content's height is greater than the image's height */
+  background-attachment: fixed;
+  
+  /* This is what makes the background image rescale based
+     on the container's size */
+  background-size: cover;
+  
+  /* Set a background color that will be displayed
+     while the background image is loading */
+  background-color: black;
+}
+
+.hello, .hello2, .hello3 {
+  text-align: center;
+  font-size: 14vw;
+  color: white;
+  font-family: $titlefont;
+  padding-top: 20%;
+}
+
+.hello {
+  font-family: $decorfont;
+}
+
+.hello2 {
+  padding: 0;
+  font-size: 5.8vw;
+  margin-top: 20px;
+}
+
+.arrow-down {
+  width: 0; 
+  height: 0; 
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-top: 40px solid white;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 250px;
+}
+
+.loginForm, .regForm {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.postlistDiv {
+  font-size: 18px;
+  text-align: left;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+}
+
+.postHeader {
+  font-size: 30px;
+  margin: 30px;
+}
+
+.fadeDiv {
+  padding-top: 100px;
+}
+
+.shareBtn {
+  height: 30px;
+}
+
+.shareDiv {
+  margin: 30px;
+}
+
+select {
+  margin-left: 10px;
+}
+
+
+@media (min-width: 769px) {
+
+  .catLink {
+    margin-left: 5%;
+    display: inline;
+    margin-bottom: 10px;
+  }
+
+  .catDiv {
+    display: inline;
+    padding: 0;
+  }
+
+  .admin {
+    padding-top: 10%;
+  }
+
+  .adminTitle {
+    font-size: 3vw;
+  }
+
+  .fadeDiv {
+    padding: 0;
+  }
+
+  li {
+    font-size: 16px;
+  }
+
+  .navbar .greet {
+    display: inline-block;
+  }
+
+  .navbar {
+    height: 50px;
+    padding-bottom: 5px;
+  }
+
+  .hello {
+    font-size: 10vw;
+    padding-top: 8%;
+  }
+  .hello2 {
+    font-size: 3vw;
+  }
+
+  button {
+    height: 100px;
+    margin: 25px;
+    font-size: 3.4vw;
+  }
+
+  input {
+    width: 50%;
+    height: 100px;
+    margin: 25px;
+    font-size: 3.4vw;
+  }
+
+  .grid {
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+  }
+
+  .suggName {
+    font-size: 32px;
+  }
+
+  .suggFood {
+    font-size: 24px;
+    margin-bottom: 8%;
+  }
+
+  .suggAdd {
+    font-size: 16px;
+  }
+
+  .shareContainer {
+  padding-top: 5%;
+
+    .shareDiv {
+      margin: 30px;
+    }
+
+    .shareTitle {
+      font-size: 2vw;
+    }
+
+    .shareForm {
+
+      .shareLabel {
+        font-size: 1.5vw;
+      }
+
+      .shareBtn {
+        height: 50px;
+        font-size: 2vw;
+        width: 20%;
+      }
+    }
+
+  }
+
+  .infoDiv {
+    padding-top: 80px;
+  }
+
+  .infoName {
+    font-size: 4.4vw;
+  }
+
+  .infoAdd {
+    font-size: 3vw;
+  }
+
+  .map-canvas {
+    height: 400px;
+  }
+
+  .postlistDiv {
+    font-size: 24px;
+    text-align: left;
+    width: 90%;
+    margin-left: 10%;
+  }
+
+}
+
+@media (min-width: 990px) {
+  .bg-img {
+    margin-bottom: 70px;
+  }
+
+  .suggName {
+    font-size: 32px;
+  }
+
+  .suggFood {
+    font-size: 24px;
+  }
+
+  .suggAdd {
+    font-size: 16px;
+  }
+
+  .postlistDiv {
+    font-size: 26px;
+    text-align: left;
+    width: 90%;
+    margin-left: 20%;
+    margin-top: 3%;
+  }
+}
+
+@media (min-width: 1200px) {
+
+  .map-canvas {
+    max-width: 1400px;
+  }
+
+  .infoName {
+    font-size: 50px;
+  }
+
+  .infoAdd {
+    font-size: 40px;
+  }
+
+  .suggName {
+    font-size: 32px;
+  }
+
+  .suggFood {
+    font-size: 24px;
+  }
+
+  .suggAdd {
+    font-size: 16px;
+  }
+}
