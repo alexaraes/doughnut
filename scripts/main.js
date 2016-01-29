@@ -17,10 +17,20 @@ var App = Backbone.Router.extend({
 		'eatie': 'eatie',
 		'images': 'images'
 	},
-	home: function(posts) {
+	home: function() {
 		ReactDOM.render(
 			<HomeComponent />, 
 			container
+		)
+	},
+	about: function() {
+		ReactDOM.render(
+			
+		)
+	},
+	contact: function() {
+		ReactDOM.render(
+			
 		)
 	},
 	blog: function() {
