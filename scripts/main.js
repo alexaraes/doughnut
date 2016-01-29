@@ -1,4 +1,5 @@
 var React = require('react');
+var ReactDOM = require('react-dom');
 var Backbone = require('backbone');
 var $ = require('jquery');
 
@@ -18,22 +19,22 @@ var App = Backbone.Router.extend({
 	},
 	home: function(posts) {
 		ReactDOM.render(
-			<Home />, 
+			<HomeComponent />, 
 			container
 		)
 	},
 	blog: function() {
-		React.render(
+		ReactDOM.render(
 			
 		)
 	},
 	eatie: function() {
-		React.render(
+		ReactDOM.render(
 			
 		)
 	},
 	images: function() {
-		React.render(
+		ReactDOM.render(
 			
 		)
 	}
