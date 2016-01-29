@@ -32481,7 +32481,7 @@ module.exports = React.createClass({
 				React.createElement(
 					'div',
 					{ className: 'contact-left-col' },
-					React.createElement('img', { className: 'contact-icon', src: '../../images/Email-icon.png' })
+					React.createElement('img', { className: 'contact-icon', src: '/../images/Email-icon.png' })
 				),
 				React.createElement(
 					'div',
@@ -32499,7 +32499,7 @@ module.exports = React.createClass({
 				React.createElement(
 					'div',
 					{ className: 'contact-left-col' },
-					React.createElement('img', { className: 'contact-icon', src: '../../images/linkedin-3-512.png' })
+					React.createElement('img', { className: 'contact-icon', src: '/../images/linkedin-3-512.png' })
 				),
 				React.createElement(
 					'div',
@@ -32517,7 +32517,7 @@ module.exports = React.createClass({
 				React.createElement(
 					'div',
 					{ className: 'contact-left-col' },
-					React.createElement('img', { className: 'contact-icon', src: '../../images/github-icon.png' })
+					React.createElement('img', { className: 'contact-icon', src: '/../images/github-icon.png' })
 				),
 				React.createElement(
 					'div',
@@ -32535,7 +32535,7 @@ module.exports = React.createClass({
 				React.createElement(
 					'div',
 					{ className: 'contact-left-col' },
-					React.createElement('img', { className: 'contact-icon', src: '../../images/twitter.png' })
+					React.createElement('img', { className: 'contact-icon', src: '../images/twitter.png' })
 				),
 				React.createElement(
 					'div',
@@ -32553,7 +32553,7 @@ module.exports = React.createClass({
 				React.createElement(
 					'div',
 					{ className: 'contact-left-col' },
-					React.createElement('img', { className: 'contact-icon', src: '../../images/tumblr-6-512.png' })
+					React.createElement('img', { className: 'contact-icon', src: '/../images/tumblr-6-512.png' })
 				),
 				React.createElement(
 					'div',

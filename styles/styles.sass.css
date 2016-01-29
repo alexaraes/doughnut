@@ -71,7 +71,7 @@ p > a {
   padding: 50px 0;
   overflow: hidden; }
 
-.left-col {
+.left-col, .contact-left-col {
   width: 40%;
   float: left;
   color: #595959; }
@@ -79,13 +79,22 @@ p > a {
 .left-col p {
   line-height: 1.6; }
 
-.right-col {
+.right-col, .contact-right-col {
   width: 50%;
   float: right;
   margin-left: 10%; }
 
+.contact-right-col {
+  padding-top: 10px; }
+
 .right-col img {
   width: 100%; }
+
+.contact-left-col {
+  text-align: right; }
+
+.contact-icon {
+  width: 50px; }
 
 footer {
   /*background-color: #b1d4cd;
