@@ -86,8 +86,8 @@ p > a {
 	}
 }
 
-.container, footer {
-	width: 960px;
+.container {
+	width: 65%;
 	margin: 0 auto;
 	padding: 50px 0;
 	overflow: hidden;
@@ -124,9 +124,5 @@ p > a {
 
 .contact-icon {
 	width: 50px;
-}
-
-footer {
-	/*background-color: #b1d4cd;
-	overflow: hidden;*/
+	cursor: pointer;
 }

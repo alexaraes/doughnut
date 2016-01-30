@@ -54,7 +54,7 @@ module.exports = React.createClass({
 						</p>
 					</div>
 					<div className="right-col">
-						<a href="/blog/index.html">
+						<a href="./blog/blog-home.html">
 							<img src="./images/blog-screencap.png" />
 						</a>
 					</div>

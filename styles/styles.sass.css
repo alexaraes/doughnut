@@ -65,8 +65,8 @@ p > a {
     font-size: 80px;
     text-align: right; }
 
-.container, footer {
-  width: 960px;
+.container {
+  width: 65%;
   margin: 0 auto;
   padding: 50px 0;
   overflow: hidden; }
@@ -94,8 +94,5 @@ p > a {
   text-align: right; }
 
 .contact-icon {
-  width: 50px; }
-
-footer {
-  /*background-color: #b1d4cd;
-	overflow: hidden;*/ }
+  width: 50px;
+  cursor: pointer; }

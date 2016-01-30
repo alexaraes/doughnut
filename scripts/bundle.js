@@ -32465,14 +32465,18 @@ module.exports = React.createClass({
 				React.createElement(
 					'div',
 					{ className: 'contact-left-col' },
-					React.createElement('img', { className: 'contact-icon', src: './images/linkedin-3-512.png' })
+					React.createElement(
+						'a',
+						{ href: '#linkedin' },
+						React.createElement('img', { className: 'contact-icon', src: './images/linkedin-3-512.png' })
+					)
 				),
 				React.createElement(
 					'div',
 					{ className: 'contact-right-col' },
 					React.createElement(
 						'a',
-						{ href: 'http://www.linkedin.com/in/alexaraes' },
+						{ href: '#linkedin' },
 						'linkedin/in/alexaraes'
 					)
 				)
@@ -32483,14 +32487,18 @@ module.exports = React.createClass({
 				React.createElement(
 					'div',
 					{ className: 'contact-left-col' },
-					React.createElement('img', { className: 'contact-icon', src: './images/github-icon.png' })
+					React.createElement(
+						'a',
+						{ href: '#github' },
+						React.createElement('img', { className: 'contact-icon', src: './images/github-icon.png' })
+					)
 				),
 				React.createElement(
 					'div',
 					{ className: 'contact-right-col' },
 					React.createElement(
 						'a',
-						{ href: 'http://www.github.com/alexaraes' },
+						{ href: '#github' },
 						'github.com/alexaraes'
 					)
 				)
@@ -32501,14 +32509,18 @@ module.exports = React.createClass({
 				React.createElement(
 					'div',
 					{ className: 'contact-left-col' },
-					React.createElement('img', { className: 'contact-icon', src: './images/twitter.png' })
+					React.createElement(
+						'a',
+						{ href: '#twitter' },
+						React.createElement('img', { className: 'contact-icon', src: './images/twitter.png' })
+					)
 				),
 				React.createElement(
 					'div',
 					{ className: 'contact-right-col' },
 					React.createElement(
 						'a',
-						{ href: 'http://www.twitter.com/awrecksa' },
+						{ href: '#twitter' },
 						'twitter.com/awrecksa'
 					)
 				)
@@ -32519,14 +32531,18 @@ module.exports = React.createClass({
 				React.createElement(
 					'div',
 					{ className: 'contact-left-col' },
-					React.createElement('img', { className: 'contact-icon', src: './images/tumblr-6-512.png' })
+					React.createElement(
+						'a',
+						{ href: '#tumblr' },
+						React.createElement('img', { className: 'contact-icon', src: './images/tumblr-6-512.png' })
+					)
 				),
 				React.createElement(
 					'div',
 					{ className: 'contact-right-col' },
 					React.createElement(
 						'a',
-						{ href: 'awrecksa.tumblr.com' },
+						{ href: '#tumblr' },
 						'awrecksa.tumblr.com'
 					)
 				)
@@ -32678,7 +32694,7 @@ module.exports = React.createClass({
 					{ className: 'right-col' },
 					React.createElement(
 						'a',
-						{ href: '/blog/index.html' },
+						{ href: './blog/blog-home.html' },
 						React.createElement('img', { src: './images/blog-screencap.png' })
 					)
 				)
@@ -32758,7 +32774,11 @@ var App = Backbone.Router.extend({
 		'contact': 'contact',
 		'blog': 'blog',
 		'eatie': 'eatie',
-		'images': 'images'
+		'images': 'images',
+		'linkedin': 'linkedin',
+		'github': 'github',
+		'twitter': 'twitter',
+		'tumblr': 'tumblr'
 	},
 	home: function home() {
 		ReactDOM.render(React.createElement(HomeComponent, null), container);
@@ -32772,11 +32792,19 @@ var App = Backbone.Router.extend({
 	blog: function blog() {
 		ReactDOM.render();
 	},
-	eatie: function eatie() {
-		ReactDOM.render();
+	eatie: function eatie() {},
+	images: function images() {},
+	linkedin: function linkedin() {
+		window.location.href = 'http://www.linkedin.com/in/alexaraes';
 	},
-	images: function images() {
-		ReactDOM.render();
+	github: function github() {
+		window.location.href = 'http://www.github.com/alexaraes';
+	},
+	twitter: function twitter() {
+		window.location.href = 'http://www.twitter.com/awrecksa';
+	},
+	tumblr: function tumblr() {
+		window.location.href = 'awrecksa.tumblr.com';
 	}
 });
 

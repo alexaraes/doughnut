@@ -25,7 +25,11 @@ var App = Backbone.Router.extend({
 		'contact': 'contact',
 		'blog': 'blog',
 		'eatie': 'eatie',
-		'images': 'images'
+		'images': 'images',
+		'linkedin': 'linkedin',
+		'github': 'github',
+		'twitter': 'twitter',
+		'tumblr': 'tumblr'
 	},
 	home: function() {
 		ReactDOM.render(
@@ -51,14 +55,22 @@ var App = Backbone.Router.extend({
 		)
 	},
 	eatie: function() {
-		ReactDOM.render(
-			
-		)
+		
 	},
 	images: function() {
-		ReactDOM.render(
-			
-		)
+		
+	},
+	linkedin: function() {
+		window.location.href = 'http://www.linkedin.com/in/alexaraes';
+	},
+	github: function() {
+		window.location.href = 'http://www.github.com/alexaraes';
+	},
+	twitter: function() {
+		window.location.href = 'http://www.twitter.com/awrecksa';
+	},
+	tumblr: function() {
+		window.location.href = 'awrecksa.tumblr.com';
 	}
 });
 

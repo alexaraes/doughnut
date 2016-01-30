@@ -23,40 +23,48 @@ module.exports = React.createClass({
 				</div>
 				<div className="container">
 					<div className="contact-left-col">
-						<img className="contact-icon" src="./images/linkedin-3-512.png" />
+						<a href="#linkedin">
+							<img className="contact-icon" src="./images/linkedin-3-512.png" />
+						</a>
 					</div>
 					<div className="contact-right-col">
-						<a href="http://www.linkedin.com/in/alexaraes">
+						<a href="#linkedin">
 							linkedin/in/alexaraes
 						</a>
 					</div>
 				</div>
 				<div className="container">
 					<div className="contact-left-col">
-						<img className="contact-icon" src="./images/github-icon.png" />
+						<a href="#github">
+							<img className="contact-icon" src="./images/github-icon.png" />
+						</a>
 					</div>
 					<div className="contact-right-col">
-						<a href="http://www.github.com/alexaraes">
+						<a href="#github">
 							github.com/alexaraes
 						</a>
 					</div>
 				</div>
 				<div className="container">
 					<div className="contact-left-col">
-						<img className="contact-icon" src="./images/twitter.png" />
+						<a href="#twitter">
+							<img className="contact-icon" src="./images/twitter.png" />
+						</a>
 					</div>
 					<div className="contact-right-col">
-						<a href="http://www.twitter.com/awrecksa">
+						<a href="#twitter">
 							twitter.com/awrecksa
 						</a>
 					</div>
 				</div>
 				<div className="container">
 					<div className="contact-left-col">
-						<img className="contact-icon" src="./images/tumblr-6-512.png" />
+						<a href="#tumblr">
+							<img className="contact-icon" src="./images/tumblr-6-512.png" />
+						</a>
 					</div>
 					<div className="contact-right-col">
-						<a href="awrecksa.tumblr.com">
+						<a href="#tumblr">
 							awrecksa.tumblr.com
 						</a>
 					</div>
