@@ -7,33 +7,9 @@ module.exports = React.createClass({
 			<div>
 				<div className="about-hero"><h2 className="about-info">About</h2></div>
 				<div className="container">
-					<div className="left-col">
-						
-					</div>
-					<div className="right-col">
-						
-					</div>
-				</div>
-				<div className="container">
-					<div className="left-col">
-						<a href="/photo-album/dist/photo-home.html"><h2>Photo Album</h2></a>
-						<p>
-						Taxidermy gastropub lo-fi, vinyl marfa swag kombucha ramps chambray farm-to-table ugh truffaut austin. Pug wayfarers asymmetrical twee cred migas tousled mustache, four loko ennui tilde chartreuse sartorial man bun authentic. Blue bottle banh mi lomo pitchfork pinterest. Chambray green juice shabby chic cornhole. Brooklyn narwhal hella, kitsch wayfarers fingerstache gluten-free lomo paleo.
-						</p>
-					</div>
-					<div className="right-col">
-						
-					</div>
-				</div>
-				<div className="container">
-					<div className="left-col">
-						<a href="/blog/blog-home.html"><h2>Blog</h2></a>
-						<p>
-						Taxidermy gastropub lo-fi, vinyl marfa swag kombucha ramps chambray farm-to-table ugh truffaut austin. Pug wayfarers asymmetrical twee cred migas tousled mustache, four loko ennui tilde chartreuse sartorial man bun authentic. Blue bottle banh mi lomo pitchfork pinterest. Chambray green juice shabby chic cornhole. Brooklyn narwhal hella, kitsch wayfarers fingerstache gluten-free lomo paleo.
-						</p>
-					</div>
-					<div className="right-col">
-						
+					<div className="about-info">
+						<h2>Hello</h2>
+						<h3>Is it me youre looking for?</h3>
 					</div>
 				</div>
 			</div>

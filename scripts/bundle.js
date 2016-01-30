@@ -32400,54 +32400,20 @@ module.exports = React.createClass({
 			React.createElement(
 				'div',
 				{ className: 'container' },
-				React.createElement('div', { className: 'left-col' }),
-				React.createElement('div', { className: 'right-col' })
-			),
-			React.createElement(
-				'div',
-				{ className: 'container' },
 				React.createElement(
 					'div',
-					{ className: 'left-col' },
+					{ className: 'about-info' },
 					React.createElement(
-						'a',
-						{ href: '/photo-album/dist/photo-home.html' },
-						React.createElement(
-							'h2',
-							null,
-							'Photo Album'
-						)
+						'h2',
+						null,
+						'Hello'
 					),
 					React.createElement(
-						'p',
+						'h3',
 						null,
-						'Taxidermy gastropub lo-fi, vinyl marfa swag kombucha ramps chambray farm-to-table ugh truffaut austin. Pug wayfarers asymmetrical twee cred migas tousled mustache, four loko ennui tilde chartreuse sartorial man bun authentic. Blue bottle banh mi lomo pitchfork pinterest. Chambray green juice shabby chic cornhole. Brooklyn narwhal hella, kitsch wayfarers fingerstache gluten-free lomo paleo.'
+						'Is it me youre looking for?'
 					)
-				),
-				React.createElement('div', { className: 'right-col' })
-			),
-			React.createElement(
-				'div',
-				{ className: 'container' },
-				React.createElement(
-					'div',
-					{ className: 'left-col' },
-					React.createElement(
-						'a',
-						{ href: '/blog/blog-home.html' },
-						React.createElement(
-							'h2',
-							null,
-							'Blog'
-						)
-					),
-					React.createElement(
-						'p',
-						null,
-						'Taxidermy gastropub lo-fi, vinyl marfa swag kombucha ramps chambray farm-to-table ugh truffaut austin. Pug wayfarers asymmetrical twee cred migas tousled mustache, four loko ennui tilde chartreuse sartorial man bun authentic. Blue bottle banh mi lomo pitchfork pinterest. Chambray green juice shabby chic cornhole. Brooklyn narwhal hella, kitsch wayfarers fingerstache gluten-free lomo paleo.'
-					)
-				),
-				React.createElement('div', { className: 'right-col' })
+				)
 			)
 		);
 	}
@@ -32683,7 +32649,7 @@ module.exports = React.createClass({
 					{ className: 'left-col' },
 					React.createElement(
 						'a',
-						{ href: '/blog/index.html' },
+						{ href: '/blog/blog-home.html' },
 						React.createElement(
 							'h2',
 							null,
