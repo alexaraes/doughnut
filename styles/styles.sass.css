@@ -50,16 +50,10 @@ p > a {
     text-align: left; }
 
 .hero {
-  background: url("../images/fisheye1.jpg") fixed no-repeat;
-  padding-top: 200px;
-  background-position: 0% 75%;
-  padding-bottom: 200px; }
+  background: url("../images/fisheye1.jpg") fixed no-repeat; }
 
 .contact-hero {
-  background: url("../images/img5.jpg") fixed no-repeat;
-  padding-top: 90px;
-  padding-bottom: 310px;
-  padding-right: 3%; }
+  background: url("../images/img5.jpg") fixed no-repeat; }
   .contact-hero .contact-info {
     color: black;
     font-size: 80px;
