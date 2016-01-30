@@ -12,7 +12,7 @@ module.exports = React.createClass({
 
 				<div className="container">
 					<div className="contact-left-col">
-						<img className="contact-icon" src="/../images/Email-icon.png" />
+						<img className="contact-icon" src="./images/Email-icon.png" />
 					</div>
 
 					<div className="contact-right-col">
@@ -33,7 +33,7 @@ module.exports = React.createClass({
 				</div>
 				<div className="container">
 					<div className="contact-left-col">
-						<img className="contact-icon" src="doughnut/images/github-icon.png" />
+						<img className="contact-icon" src="./images/github-icon.png" />
 					</div>
 					<div className="contact-right-col">
 						<a href="http://www.github.com/alexaraes">
