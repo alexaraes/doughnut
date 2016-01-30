@@ -44,7 +44,7 @@ module.exports = React.createClass({
 				</div>
 				<div className="container">
 					<div className="left-col">
-						<a href="/blog/blog-home.html">
+						<a href="./blog/blog-home.html">
 							<h2>Blog</h2>
 							<h3>Fun blog of various posts from various people</h3>
 						</a>

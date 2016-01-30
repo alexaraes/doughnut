@@ -32649,7 +32649,7 @@ module.exports = React.createClass({
 					{ className: 'left-col' },
 					React.createElement(
 						'a',
-						{ href: '/blog/blog-home.html' },
+						{ href: './blog/blog-home.html' },
 						React.createElement(
 							'h2',
 							null,
