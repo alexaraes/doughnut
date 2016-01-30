@@ -32517,7 +32517,7 @@ module.exports = React.createClass({
 				React.createElement(
 					'div',
 					{ className: 'contact-left-col' },
-					React.createElement('img', { className: 'contact-icon', src: './images/github-icon.png' })
+					React.createElement('img', { className: 'contact-icon', src: 'doughnut/images/github-icon.png' })
 				),
 				React.createElement(
 					'div',
