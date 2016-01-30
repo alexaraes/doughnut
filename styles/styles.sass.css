@@ -96,3 +96,5 @@ p > a {
 .contact-icon {
   width: 50px;
   cursor: pointer; }
+  .contact-icon .contact-icon > a:hover {
+    text-decoration: none; }
