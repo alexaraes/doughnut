@@ -6,6 +6,7 @@ var HomeComponent = require('./components/HomeComponent.js');
 var AboutComponent = require('./components/AboutComponent.js');
 var ContactComponent = require('./components/ContactComponent.js');
 var NavBar = require('./components/NavComponent.js');
+var ProjectComponent = require('./components/ProjectComponent.js');
 
 var container = document.getElementById('main');
 var nav = document.getElementById('nav');
@@ -21,6 +22,7 @@ var App = Backbone.Router.extend({
 	routes: {
 		'': 'home',
 		'home': 'home',
+		'projects': 'projects',
 		'about': 'about',
 		'contact': 'contact',
 		'blog': 'blog',
@@ -37,6 +39,12 @@ var App = Backbone.Router.extend({
 			container
 		)
 	},
+	projects: function() {
+		ReactDOM.render(
+			<ProjectComponent />,
+			container
+		)
+	},
 	about: function() {
 		ReactDOM.render(
 			<AboutComponent />,
@@ -48,17 +56,6 @@ var App = Backbone.Router.extend({
 			<ContactComponent />,
 			container
 		)
-	},
-	blog: function() {
-		ReactDOM.render(
-			
-		)
-	},
-	eatie: function() {
-		
-	},
-	images: function() {
-		
 	},
 	linkedin: function() {
 		window.location.href = 'http://www.linkedin.com/in/alexaraes';

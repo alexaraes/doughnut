@@ -39,6 +39,7 @@ p > a {
 }
 
 #nav {
+	z-index: 1;
 	padding: 10px 0 ;
 	background-color: $prime-color;
 	position: fixed;
@@ -51,39 +52,104 @@ p > a {
 	}
 }
 
-.hero, .about-hero, .contact-hero {
-	background: url('../images/profileimg.jpg') fixed no-repeat;
-	background-size: cover;
-	background-position: 0% 200%;
-	padding-top: 100px;
-	padding-bottom: 300px;
-	padding-left: 4%;
 
-	.about-info {
-		color: black;
-		font-size: 80px;
-		text-align: left;
-	}
-}
+
+// .hero, .about-hero, .contact-hero {
+// 	background: url('../images/profileimg.jpg') fixed no-repeat;
+// 	background-size: cover;
+// 	background-position: 0% 200%;
+// 	padding-top: 100px;
+// 	padding-bottom: 300px;
+// 	padding-left: 4%;
+
+// 	.about-info {
+// 		color: black;
+// 		font-size: 80px;
+// 		text-align: left;
+// 	}
+// }
+
+// .hero {
+// 	background: url('../images/fisheye1.jpg') fixed no-repeat;
+// 	padding-top: 200px;
+// 	// background-position: 0% 75%;
+// 	// padding-bottom: 200px;
+// }
+
+// .contact-hero {
+// 	background: url('../images/img5.jpg') fixed no-repeat;
+// 	padding-top: 90px;
+// 	padding-bottom: 310px;
+// 	padding-right: 3%;
+
+// 	.contact-info {
+// 		color: black;
+// 		font-size: 80px;
+// 		text-align: right;
+// 	}
+// }
 
 .hero {
-	background: url('../images/fisheye1.jpg') fixed no-repeat;
-	// padding-top: 200px;
-	// background-position: 0% 75%;
-	// padding-bottom: 200px;
+	background: url("../images/fisheye1.jpg") fixed no-repeat;
+	background-size: cover;
+	background-position: 50%;
+	padding-top: 54.75%;  /* 450px/800px = 0.5625 */
+	
+	
+	color: black;
+	font-size: 80px;
+	text-align: center;
+}
+
+h1.name {
+	position:absolute;
+	top:35%;
+	left:0%;
+	right:0%;
+	margin: 0;
+	 text-shadow:
+   -1px -1px 0 #fff,  
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+     1px 1px 0 #fff;
+}
+
+.about-hero {
+	background: url("../images/profileimg.jpg") fixed no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
+	padding-top: 46.25%;  /* 450px/800px = 0.5625 */
 }
 
 .contact-hero {
-	background: url('../images/img5.jpg') fixed no-repeat;
-	// padding-top: 90px;
-	// padding-bottom: 310px;
-	// padding-right: 3%;
+	background: url("../images/img5.jpg") fixed no-repeat;
+	background-size: cover;
+	background-position: 0% 0%;
+	padding-top: 46.25%;  /* 450px/800px = 0.5625 */
+}
 
-	.contact-info {
-		color: black;
-		font-size: 80px;
-		text-align: right;
-	}
+.hero, .about-hero .about-info, .contact-hero .contact-info {
+	color: black;
+	font-size: 80px;
+	text-align: left;
+	text-shadow:
+   -1px -1px 0 #fff,  
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+     1px 1px 0 #fff;
+     margin: 0 auto;
+}
+
+.contact-hero .contact-info {
+	color: black;
+	font-size: 80px;
+	text-align: right;
+}
+.container {
+	width: 960px;
+	margin: 0 auto;
+	padding: 50px 0;
+	overflow: hidden;
 }
 
 .container {
@@ -91,6 +157,10 @@ p > a {
 	margin: 0 auto;
 	padding: 50px 0;
 	overflow: hidden;
+}
+
+.projects {
+	padding-top: 150px;
 }
 
 .left-col, .contact-left-col {

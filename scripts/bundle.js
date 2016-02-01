@@ -32406,12 +32406,17 @@ module.exports = React.createClass({
 					React.createElement(
 						'h2',
 						null,
-						'Hello'
+						'What makes an Alexa?'
 					),
 					React.createElement(
-						'h3',
+						'h4',
 						null,
-						'Is it me youre looking for?'
+						'Combine one developer mom and one graphic designer dad, and an excitement for solving problems and making beautiful things.'
+					),
+					React.createElement(
+						'p',
+						null,
+						'Tabs > spaces forever. Matching color schemes for Sublime Text and iTerm. Die-hard Texan. A firm stance on the pronounciation of "gif". Singing Alanis Morissette at karaoke. Friends. Fire Eagle IPA. Bulleit rye bourbon. Cold brew coffee.'
 					)
 				)
 			)
@@ -32572,7 +32577,77 @@ module.exports = React.createClass({
 					{ className: 'name' },
 					'Alexa Rae Schreffler'
 				)
+			)
+		);
+	}
+});
+
+},{"react":161,"react-dom":5}],165:[function(require,module,exports){
+'use strict';
+
+var React = require('react');
+var ReactDOM = require('react-dom');
+
+module.exports = React.createClass({
+	displayName: 'exports',
+
+	render: function render() {
+		return React.createElement(
+			'ul',
+			null,
+			React.createElement(
+				'li',
+				null,
+				React.createElement(
+					'a',
+					{ className: 'navlinks', href: '#home' },
+					'home'
+				)
 			),
+			React.createElement(
+				'li',
+				null,
+				React.createElement(
+					'a',
+					{ className: 'navlinks', href: '#projects' },
+					'projects'
+				)
+			),
+			React.createElement(
+				'li',
+				null,
+				React.createElement(
+					'a',
+					{ className: 'navlinks', href: '#about' },
+					'about'
+				)
+			),
+			React.createElement(
+				'li',
+				null,
+				React.createElement(
+					'a',
+					{ className: 'navlinks', href: '#contact' },
+					'contact'
+				)
+			)
+		);
+	}
+});
+
+},{"react":161,"react-dom":5}],166:[function(require,module,exports){
+'use strict';
+
+var React = require('react');
+var ReactDOM = require('react-dom');
+
+module.exports = React.createClass({
+	displayName: 'exports',
+
+	render: function render() {
+		return React.createElement(
+			'div',
+			{ className: 'projects' },
 			React.createElement(
 				'div',
 				{ className: 'container' },
@@ -32703,51 +32778,7 @@ module.exports = React.createClass({
 	}
 });
 
-},{"react":161,"react-dom":5}],165:[function(require,module,exports){
-'use strict';
-
-var React = require('react');
-var ReactDOM = require('react-dom');
-
-module.exports = React.createClass({
-	displayName: 'exports',
-
-	render: function render() {
-		return React.createElement(
-			'ul',
-			null,
-			React.createElement(
-				'li',
-				null,
-				React.createElement(
-					'a',
-					{ className: 'navlinks', href: '#home' },
-					'home'
-				)
-			),
-			React.createElement(
-				'li',
-				null,
-				React.createElement(
-					'a',
-					{ className: 'navlinks', href: '#about' },
-					'about'
-				)
-			),
-			React.createElement(
-				'li',
-				null,
-				React.createElement(
-					'a',
-					{ className: 'navlinks', href: '#contact' },
-					'contact'
-				)
-			)
-		);
-	}
-});
-
-},{"react":161,"react-dom":5}],166:[function(require,module,exports){
+},{"react":161,"react-dom":5}],167:[function(require,module,exports){
 'use strict';
 
 var React = require('react');
@@ -32758,6 +32789,7 @@ var HomeComponent = require('./components/HomeComponent.js');
 var AboutComponent = require('./components/AboutComponent.js');
 var ContactComponent = require('./components/ContactComponent.js');
 var NavBar = require('./components/NavComponent.js');
+var ProjectComponent = require('./components/ProjectComponent.js');
 
 var container = document.getElementById('main');
 var nav = document.getElementById('nav');
@@ -32770,6 +32802,7 @@ var App = Backbone.Router.extend({
 	routes: {
 		'': 'home',
 		'home': 'home',
+		'projects': 'projects',
 		'about': 'about',
 		'contact': 'contact',
 		'blog': 'blog',
@@ -32783,17 +32816,15 @@ var App = Backbone.Router.extend({
 	home: function home() {
 		ReactDOM.render(React.createElement(HomeComponent, null), container);
 	},
+	projects: function projects() {
+		ReactDOM.render(React.createElement(ProjectComponent, null), container);
+	},
 	about: function about() {
 		ReactDOM.render(React.createElement(AboutComponent, null), container);
 	},
 	contact: function contact() {
 		ReactDOM.render(React.createElement(ContactComponent, null), container);
 	},
-	blog: function blog() {
-		ReactDOM.render();
-	},
-	eatie: function eatie() {},
-	images: function images() {},
 	linkedin: function linkedin() {
 		window.location.href = 'http://www.linkedin.com/in/alexaraes';
 	},
@@ -32811,7 +32842,7 @@ var App = Backbone.Router.extend({
 var myApp = new App();
 Backbone.history.start();
 
-},{"./components/AboutComponent.js":162,"./components/ContactComponent.js":163,"./components/HomeComponent.js":164,"./components/NavComponent.js":165,"backbone":1,"react":161,"react-dom":5}]},{},[166])
+},{"./components/AboutComponent.js":162,"./components/ContactComponent.js":163,"./components/HomeComponent.js":164,"./components/NavComponent.js":165,"./components/ProjectComponent.js":166,"backbone":1,"react":161,"react-dom":5}]},{},[167])
 
 
 //# sourceMappingURL=bundle.js.map
