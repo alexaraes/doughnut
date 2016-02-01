@@ -9,6 +9,9 @@ module.exports = React.createClass({
 					<a className="navlinks" href="#home">home</a>
 				</li>
 				<li>
+					<a className="navlinks" href="#projects">projects</a>
+				</li>
+				<li>
 					<a className="navlinks" href="#about">about</a>
 				</li>
 				<li>
