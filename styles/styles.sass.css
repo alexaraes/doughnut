@@ -39,7 +39,7 @@ p > a {
     margin: 0 auto; }
 
 .hero {
-  background: url("../images/fisheye1.jpg") fixed no-repeat;
+  background: url("../images/profileimg.jpg") fixed no-repeat;
   background-size: cover;
   background-position: 50%;
   padding-top: 54.75%;
@@ -57,7 +57,7 @@ h1.name {
   text-shadow: -1px -1px 0 #fff,   1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff; }
 
 .about-hero {
-  background: url("../images/profileimg.jpg") fixed no-repeat;
+  background: url("../images/alexa.jpg") fixed no-repeat;
   background-size: cover;
   background-position: 50% 50%;
   padding-top: 46.25%;
