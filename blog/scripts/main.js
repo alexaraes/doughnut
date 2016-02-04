@@ -21,7 +21,7 @@ React.render(
 	document.getElementById('nav')
 );
 
-function fetchPosts(category, query) {
+function fetchPosts(category) {
 	var q = {};
 	if(category) {
 		q.category = category;
@@ -41,10 +41,26 @@ var App = Backbone.Router.extend({
 		'home': 'feed',
 		'post/:postId': 'post',
 		'category/:category': 'category',
-		'search/:query': 'search',
 		'login': 'login',
 		'register': 'register',
 		'submitpost': 'submitpost'
+	},
+	feed: function(posts) {
+		fetchPosts();
+		React.render(
+			postList,
+			containerEl
+		)
+	},
+	post: function(postId) {
+		React.render(
+			<SinglePostComponent postId={postId} myApp={myApp} />,
+			containerEl
+		)
+	},
+	category: function(category) {
+		fetchPosts(category);
+		React.render(postList, containerEl);
 	},
 	login: function() {
 		React.render(
@@ -61,27 +77,6 @@ var App = Backbone.Router.extend({
 	submitpost: function() {
 		React.render(
 			<SubmitPostComponent myApp={myApp} />,
-			containerEl
-		)
-	},
-	category: function(category) {
-		fetchPosts(category);
-		React.render(postList, containerEl);
-	},
-	search: function(query) {
-		fetchPosts(query);
-		React.render(postList, containerEl);
-	},
-	feed: function(posts) {
-		fetchPosts();
-		React.render(
-			postList,
-			containerEl
-		)
-	},
-	post: function(postId) {
-		React.render(
-			<SinglePostComponent postId={postId} myApp={myApp} />,
 			containerEl
 		)
 	}

@@ -1,14 +1,13 @@
 body{
-	font-family: Playball;
+	font-family: 'Source Sans Pro', sans-serif;
+	background-color: #dbd8d6;
+	margin: 0;
 }
 
 nav {
 	text-align: center;
-	border-bottom: 2px solid #46413e;
 	padding-bottom: 1%;
 	padding-top: 1%;
-	margin-bottom: 20px;
-	width: 80%;
 	margin-right: auto;
 	margin-left: auto;
 }
@@ -23,14 +22,10 @@ nav {
 }
 
 #container {
-	/*box-sizing: border-box;*/
-	width: 70%;
 	height: 90%;
-	/*text-align: center;*/
 	padding-top: 5%;
 	padding-bottom: 5%;
-	background-color: #dbd8d6;
-	/*margin-top: 10px; */
+	background-color: white;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 50px;
@@ -41,7 +36,7 @@ nav {
 }
 
 input, textarea, select, option {
-	font-family: Playfair Display;
+	font-family: 'Slabo 27px', serif;
 	color: black;
 	background-color: white;
 	padding:0 3px 0 3px;
@@ -56,8 +51,8 @@ select {
 	display: inline-block;
 	padding-left: 50px;
 	font-size: 15px;
-	width: 18%;
-	margin-left: 150px;
+	width: 20%;
+	margin-left: 125px;
 }
 
 label {
@@ -67,16 +62,16 @@ label {
 a {
 	font-size: 20px;
 	text-decoration: none;
-	color: black;
+	color: #54565f;
 }
 
-a:hover {
-	color: #54565f;
+a:hover, a:focus {
+	color: black;
 	text-decoration: underline;
 }
 
 button {
-	font-family: Playball;
+	font-family: 'Source Sans Pro', sans-serif;
 	width: 8%;
 	height: 35px;
 	font-size: 23px;
@@ -92,12 +87,7 @@ button:hover {
 	border: 1px solid white;
 }
 
-p {
-	font-family: Playfair Display;
-}
-
 .errorText {
-	font-family: Playfair Display;
 	color: red;
 	font-size: 18px;
 	margin-bottom: 10px;
@@ -106,12 +96,11 @@ p {
 .postBody, .postTitle {
 	font-size: 18px;
 	text-align: left;
-	font-family: Playfair Display;
 	margin-bottom: 25px;
 }
 
 .postTitle {
-	font-family: Playball;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 50px;
 }
 
@@ -122,12 +111,16 @@ p {
 	width: 70%;
 }
 
+.postButton {
+	width: 100%;
+	margin-left: 125px;
+}
+
 .postDate, .postCat {
 	font-size: 12px;
 	display: inline-block;
 	padding: none;
 	margin: 10px 10px 0 10px;
-	font-family: Playfair Display;
 }
 
 .postCat {
@@ -143,7 +136,7 @@ p {
 	box-sizing: border-box;
 	border-bottom: 1px solid #46413e;
 	border-top: 1px solid #46413e;
-	width: 80%;
+	width: 60%;
 	padding: 10px 60px 20px 60px;
 	margin-left: auto;
 	margin-right: auto;
@@ -155,13 +148,16 @@ p {
 	font-size: 16px;
 	height: 25px;
 	margin-left: 20px;
+	display: hidden;
 }
 
 .searchBar {
 	height: 21px;
 	width: 150px;
+	display: hidden;
 }
 
 .searchForm {
 	text-align: center;
+	display: hidden;
 }

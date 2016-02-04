@@ -32494,7 +32494,7 @@ module.exports = React.createClass({
 					{ className: 'contact-left-col' },
 					React.createElement(
 						'a',
-						{ href: '#github' },
+						{ href: '#github', target: '_blank' },
 						React.createElement('img', { className: 'contact-icon', src: './images/github-icon.png' })
 					)
 				),

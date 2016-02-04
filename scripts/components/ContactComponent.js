@@ -35,7 +35,7 @@ module.exports = React.createClass({
 				</div>
 				<div className="container">
 					<div className="contact-left-col">
-						<a href="#github">
+						<a href="#github" target="_blank">
 							<img className="contact-icon" src="./images/github-icon.png" />
 						</a>
 					</div>
