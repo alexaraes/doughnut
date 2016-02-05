@@ -32459,7 +32459,7 @@ module.exports = React.createClass({
 					{ className: 'contact-right-col' },
 					React.createElement(
 						'a',
-						{ href: 'mailto:alexa.schreffler@gmail.com' },
+						{ className: 'text-link', href: 'mailto:alexa.schreffler@gmail.com' },
 						'alexa.schreffler@gmail.com'
 					)
 				)
@@ -32472,7 +32472,7 @@ module.exports = React.createClass({
 					{ className: 'contact-left-col' },
 					React.createElement(
 						'a',
-						{ href: '#linkedin' },
+						{ className: 'text-link', href: '#linkedin' },
 						React.createElement('img', { className: 'contact-icon', src: './images/linkedin-3-512.png' })
 					)
 				),
@@ -32481,7 +32481,7 @@ module.exports = React.createClass({
 					{ className: 'contact-right-col' },
 					React.createElement(
 						'a',
-						{ href: '#linkedin' },
+						{ className: 'text-link', href: '#linkedin' },
 						'linkedin/in/alexaraes'
 					)
 				)
@@ -32503,7 +32503,7 @@ module.exports = React.createClass({
 					{ className: 'contact-right-col' },
 					React.createElement(
 						'a',
-						{ href: '#github' },
+						{ className: 'text-link', href: '#github' },
 						'github.com/alexaraes'
 					)
 				)
@@ -32525,7 +32525,7 @@ module.exports = React.createClass({
 					{ className: 'contact-right-col' },
 					React.createElement(
 						'a',
-						{ href: '#twitter' },
+						{ className: 'text-link', href: '#twitter' },
 						'twitter.com/awrecksa'
 					)
 				)
@@ -32547,7 +32547,7 @@ module.exports = React.createClass({
 					{ className: 'contact-right-col' },
 					React.createElement(
 						'a',
-						{ href: '#tumblr' },
+						{ className: 'text-link', href: '#tumblr' },
 						'awrecksa.tumblr.com'
 					)
 				)
@@ -32656,7 +32656,7 @@ module.exports = React.createClass({
 					{ className: 'left-col' },
 					React.createElement(
 						'a',
-						{ href: './eatie/eatie-index.html' },
+						{ className: 'text-link', href: './eatie/eatie-index.html' },
 						React.createElement(
 							'h2',
 							null,
@@ -32673,7 +32673,7 @@ module.exports = React.createClass({
 						null,
 						React.createElement(
 							'a',
-							{ href: 'https://github.com/alexaraes/eatie' },
+							{ className: 'text-link', href: 'https://github.com/alexaraes/eatie' },
 							'Source code'
 						),
 						React.createElement('br', null),
@@ -32698,7 +32698,7 @@ module.exports = React.createClass({
 					{ className: 'left-col' },
 					React.createElement(
 						'a',
-						{ href: './photo-album/dist/photo-home.html' },
+						{ className: 'text-link', href: './photo-album/dist/photo-home.html' },
 						React.createElement(
 							'h2',
 							null,
@@ -32715,7 +32715,7 @@ module.exports = React.createClass({
 						null,
 						React.createElement(
 							'a',
-							{ href: 'https://github.com/alexaraes/photo-album-page/tree/master/dist' },
+							{ className: 'text-link', href: 'https://github.com/alexaraes/photo-album-page/tree/master/dist' },
 							'Source code'
 						),
 						React.createElement('br', null),
@@ -32740,7 +32740,7 @@ module.exports = React.createClass({
 					{ className: 'left-col' },
 					React.createElement(
 						'a',
-						{ href: './blog/blog-home.html' },
+						{ className: 'text-link', href: './blog/blog-home.html' },
 						React.createElement(
 							'h2',
 							null,
@@ -32757,7 +32757,7 @@ module.exports = React.createClass({
 						null,
 						React.createElement(
 							'a',
-							{ href: 'https://github.com/alexaraes/blog-practice' },
+							{ className: 'text-link', href: 'https://github.com/alexaraes/blog-practice' },
 							'Source code'
 						),
 						React.createElement('br', null),

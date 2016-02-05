@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: Futura, Helvetica, Arial, sans-serif;
+  font-family: Proxima-Nova, Futura, Helvetica, Arial, sans-serif;
   background-color: #F4F1F2; }
 
 h1, h2, ul {
@@ -14,7 +14,7 @@ h1 {
 a, .navlinks {
   text-decoration: none;
   text-transform: uppercase;
-  margin: 0 10px;
+  margin: 0 25px;
   color: #595959; }
 
 a {

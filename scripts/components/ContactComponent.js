@@ -16,19 +16,19 @@ module.exports = React.createClass({
 					</div>
 
 					<div className="contact-right-col">
-						<a href="mailto:alexa.schreffler@gmail.com">
+						<a className="text-link" href="mailto:alexa.schreffler@gmail.com">
 							alexa.schreffler@gmail.com
 						</a>
 					</div>
 				</div>
 				<div className="container">
 					<div className="contact-left-col">
-						<a href="#linkedin">
+						<a className="text-link" href="#linkedin">
 							<img className="contact-icon" src="./images/linkedin-3-512.png" />
 						</a>
 					</div>
 					<div className="contact-right-col">
-						<a href="#linkedin">
+						<a className="text-link" href="#linkedin">
 							linkedin/in/alexaraes
 						</a>
 					</div>
@@ -40,7 +40,7 @@ module.exports = React.createClass({
 						</a>
 					</div>
 					<div className="contact-right-col">
-						<a href="#github">
+						<a className="text-link" href="#github">
 							github.com/alexaraes
 						</a>
 					</div>
@@ -52,7 +52,7 @@ module.exports = React.createClass({
 						</a>
 					</div>
 					<div className="contact-right-col">
-						<a href="#twitter">
+						<a className="text-link" href="#twitter">
 							twitter.com/awrecksa
 						</a>
 					</div>
@@ -64,7 +64,7 @@ module.exports = React.createClass({
 						</a>
 					</div>
 					<div className="contact-right-col">
-						<a href="#tumblr">
+						<a className="text-link" href="#tumblr">
 							awrecksa.tumblr.com
 						</a>
 					</div>
